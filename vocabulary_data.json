@@ -1,0 +1,6 @@
+[
+  { "word": "apple", "definition": "A fruit that is usually red, green, or yellow.", "category": "Fruits" },
+  { "word": "ball", "definition": "A round object used in various games.", "category": "Toys" },
+  { "word": "car", "definition": "A vehicle with four wheels used for transportation.", "category": "Vehicles" },
+  { "word": "dog", "definition": "A domesticated carnivorous mammal.", "category": "Animals" },
+]
