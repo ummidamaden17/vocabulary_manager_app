@@ -1,33 +1,32 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-
-import 'familiar_page.dart';
+import 'package:midterm_project/login_page.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    Timer(Duration(seconds: 5), () {
+    Timer(Duration(seconds: 2), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => NameEntryScreen()));
+          context, MaterialPageRoute(builder: (context) => LogInPage()));
     });
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
           gradient: SweepGradient(
             colors: [
-              Color(0xFFA8D1E7), // Light Blue
-              Color(0xFFFCFAF2), // Off White
-              Color(0xFFFFBFC5), // Light Pink
-              Color(0xFFEB8DB5), // Soft Magenta
-              Color(0xFFD4A3C4), // Lavender
-              Color(0xFFA8D1E7), // Repeat first color for a seamless loop
+              Color(0xFFA8D1E7),
+              Color(0xFFFCFAF2),
+              Color(0xFFFFBFC5),
+              Color(0xFFEB8DB5),
+              Color(0xFFD4A3C4),
+              Color(0xFFA8D1E7),
             ],
             center: Alignment.center,
             startAngle: 0.0,
-            endAngle: 3.14 * 2, // Full circle
+            endAngle: 3.14 * 2,
           ),
         ),
         child: Center(

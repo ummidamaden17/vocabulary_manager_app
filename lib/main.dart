@@ -1,21 +1,34 @@
 import 'package:flutter/material.dart';
+import 'package:midterm_project/splashscreen_page.dart';
+import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-import 'home_page.dart';
-import 'splashscreen_page.dart';
+import 'word_state.dart';
 
 void main() async {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+
+  final prefs = await SharedPreferences.getInstance();
+  String? username = prefs.getString('username') ?? '';
+
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => WordState(),
+      child: MyApp(username: username),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  final String username;
+
+  const MyApp({super.key, required this.username});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Word List App',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      title: 'Vocabulary App',
       home: SplashScreen(),
     );
   }

@@ -1,0 +1,1423 @@
+[
+  {
+    "word": "little",
+    "definition": "a small amount or duration",
+    "category": "General",
+    "transcription": "/ˈlɪt.əl/",
+    "imagePath": "assets/images/little.png"
+  },
+  {
+    "word": "living",
+    "definition": "the experience of being alive; the course of human events and activities",
+    "category": "General",
+    "transcription": "/ˈlɪv.ɪŋ/",
+    "imagePath": "assets/images/living.png"
+  },
+  {
+    "word": "lock",
+    "definition": "a fastener fitted to a door or drawer to keep it firmly closed",
+    "category": "General",
+    "transcription": "/lɒk/",
+    "imagePath": "assets/images/lock.png"
+  },
+  {
+    "word": "long",
+    "definition": "desire strongly or persistently",
+    "category": "General",
+    "transcription": "/lɒŋ/",
+    "imagePath": "assets/images/long.png"
+  },
+  {
+    "word": "look",
+    "definition": "the feelings expressed on a person's face",
+    "category": "General",
+    "transcription": "/lʊk/",
+    "imagePath": "assets/images/look.png"
+  },
+  {
+    "word": "loose",
+    "definition": "grant freedom to; free from confinement",
+    "category": "General",
+    "transcription": "/luːs/",
+    "imagePath": "assets/images/loose.png"
+  },
+  {
+    "word": "loss",
+    "definition": "something that is lost",
+    "category": "General",
+    "transcription": "/lɒs/",
+    "imagePath": "assets/images/loss.png"
+  },
+  {
+    "word": "loud",
+    "definition": "characterized by or producing sound of great volume or intensity",
+    "category": "General",
+    "transcription": "/laʊd/",
+    "imagePath": "assets/images/loud.png"
+  },
+  {
+    "word": "love",
+    "definition": "a strong positive emotion of regard and affection",
+    "category": "General",
+    "transcription": "/lʌv/",
+    "imagePath": "assets/images/love.png"
+  },
+  {
+    "word": "low",
+    "definition": "an air mass of lower pressure; often brings precipitation",
+    "category": "General",
+    "transcription": "/ləʊ/",
+    "imagePath": "assets/images/low.png"
+  },
+  {
+    "word": "machine",
+    "definition": "any mechanical or electrical device that transmits or modifies energy to perform or assist in the performance of human tasks",
+    "category": "General",
+    "transcription": "/məˈʃiːn/",
+    "imagePath": "assets/images/machine.png"
+  },
+  {
+    "word": "make",
+    "definition": "a recognizable kind",
+    "category": "General",
+    "transcription": "/meɪk/",
+    "imagePath": "assets/images/make.png"
+  },
+  {
+    "word": "male",
+    "definition": "an animal that produces gametes (spermatozoa) that can fertilize female gametes (ova)",
+    "category": "General",
+    "transcription": "/meɪl/",
+    "imagePath": "assets/images/male.png"
+  },
+  {
+    "word": "man",
+    "definition": "an adult person who is male (as opposed to a woman)",
+    "category": "General",
+    "transcription": "/mæn/",
+    "imagePath": "assets/images/man.png"
+  },
+  {
+    "word": "manager",
+    "definition": "someone who controls resources and expenditures",
+    "category": "General",
+    "transcription": "/ˈmæn.ɪ.dʒər/",
+    "imagePath": "assets/images/manager.png"
+  },
+  {
+    "word": "map",
+    "definition": "a diagrammatic representation of the earth's surface (or part of it)",
+    "category": "General",
+    "transcription": "/mæp/",
+    "imagePath": "assets/images/map.png"
+  },
+  {
+    "word": "mark",
+    "definition": "a number or letter indicating quality (especially of a student's performance)",
+    "category": "General",
+    "transcription": "/mɑːrk/",
+    "imagePath": "assets/images/mark.png"
+  },
+  {
+    "word": "market",
+    "definition": "the world of commercial activity where goods and services are bought and sold",
+    "category": "General",
+    "transcription": "/ˈmɑːr.kɪt/",
+    "imagePath": "assets/images/market.png"
+  },
+  {
+    "word": "married",
+    "definition": "a person who is married",
+    "category": "General",
+    "transcription": "/ˈmær.id/",
+    "imagePath": "assets/images/married.png"
+  },
+  {
+    "word": "mass",
+    "definition": "the property of a body that causes it to have weight in a gravitational field",
+    "category": "General",
+    "transcription": "/mæs/",
+    "imagePath": "assets/images/mass.png"
+  },
+  {
+    "word": "match",
+    "definition": "lighter consisting of a thin piece of wood or cardboard tipped with combustible chemical; ignites with friction",
+    "category": "General",
+    "transcription": "/mætʃ/",
+    "imagePath": "assets/images/match.png"
+  },
+  {
+    "word": "material",
+    "definition": "the tangible substance that goes into the makeup of a physical object",
+    "category": "General",
+    "transcription": "/məˈtɪə.ri.əl/",
+    "imagePath": "assets/images/material.png"
+  },
+  {
+    "word": "may",
+    "definition": "the month following April and preceding June",
+    "category": "General",
+    "transcription": "/meɪ/",
+    "imagePath": "assets/images/may.png"
+  },
+  {
+    "word": "meal",
+    "definition": "the food served and eaten at one time",
+    "category": "General",
+    "transcription": "/miːl/",
+    "imagePath": "assets/images/meal.png"
+  },
+  {
+    "word": "measure",
+    "definition": "any maneuver made as part of progress toward a goal",
+    "category": "General",
+    "transcription": "/ˈmeʒ.ər/",
+    "imagePath": "assets/images/measure.png"
+  },
+  {
+    "word": "meat",
+    "definition": "the flesh of animals (including fishes and birds and snails) used as food",
+    "category": "General",
+    "transcription": "/miːt/",
+    "imagePath": "assets/images/meat.png"
+  },
+  {
+    "word": "medical",
+    "definition": "a thorough physical examination; includes a variety of tests depending on the age and sex and health of the person",
+    "category": "General",
+    "transcription": "/ˈmed.ɪ.kəl/",
+    "imagePath": "assets/images/medical.png"
+  },
+  {
+    "word": "meeting",
+    "definition": "a formally arranged gathering",
+    "category": "General",
+    "transcription": "/ˈmiː.tɪŋ/",
+    "imagePath": "assets/images/meeting.png"
+  },
+  {
+    "word": "memory",
+    "definition": "something that is remembered",
+    "category": "General",
+    "transcription": "/ˈmem.ər.i/",
+    "imagePath": "assets/images/memory.png"
+  },
+  {
+    "word": "metal",
+    "definition": "any of several chemical elements that are usually shiny solids that conduct heat or electricity and can be formed into sheets etc.",
+    "category": "General",
+    "transcription": "/ˈmet.əl/",
+    "imagePath": "assets/images/metal.png"
+  },
+  {
+    "word": "middle",
+    "definition": "an area that is approximately central within some larger region",
+    "category": "General",
+    "transcription": "/ˈmɪd.əl/",
+    "imagePath": "assets/images/middle.png"
+  },
+  {
+    "word": "military",
+    "definition": "the military forces of a nation",
+    "category": "General",
+    "transcription": "/ˈmɪl.ɪ.tər.i/",
+    "imagePath": "assets/images/military.png"
+  },
+  {
+    "word": "milk",
+    "definition": "a white nutritious liquid secreted by mammals and used as food by human beings",
+    "category": "General",
+    "transcription": "/mɪlk/",
+    "imagePath": "assets/images/milk.png"
+  },
+  {
+    "word": "mind",
+    "definition": "that which is responsible for one's thoughts and feelings; the seat of the faculty of reason",
+    "category": "General",
+    "transcription": "/maɪnd/",
+    "imagePath": "assets/images/mind.png"
+  },
+  {
+    "word": "mine",
+    "definition": "excavation in the earth from which ores and minerals are extracted",
+    "category": "General",
+    "transcription": "/maɪn/",
+    "imagePath": "assets/images/mine.png"
+  },
+  {
+    "word": "minute",
+    "definition": "a unit of time equal to 60 seconds or 1/60th of an hour",
+    "category": "General",
+    "transcription": "/ˈmɪn.ɪt/",
+    "imagePath": "assets/images/minute.png"
+  },
+  {
+    "word": "mist",
+    "definition": "a thin fog with condensation near the ground",
+    "category": "General",
+    "transcription": "/mɪst/",
+    "imagePath": "assets/images/mist.png"
+  },
+  {
+    "word": "mixed",
+    "definition": "mix together different elements",
+    "category": "General",
+    "transcription": "/mɪkst/",
+    "imagePath": "assets/images/mixed.png"
+  },
+  {
+    "word": "money",
+    "definition": "the most common medium of exchange; functions as legal tender",
+    "category": "General",
+    "transcription": "/ˈmʌn.i/",
+    "imagePath": "assets/images/money.png"
+  },
+  {
+    "word": "monkey",
+    "definition": "any of various long-tailed primates (excluding the prosimians)",
+    "category": "General",
+    "transcription": "/ˈmʌŋ.ki/",
+    "imagePath": "assets/images/monkey.png"
+  },
+  {
+    "word": "month",
+    "definition": "one of the twelve divisions of the calendar year",
+    "category": "General",
+    "transcription": "/mʌnθ/",
+    "imagePath": "assets/images/month.png"
+  },
+  {
+    "word": "moon",
+    "definition": "the natural satellite of the Earth",
+    "category": "General",
+    "transcription": "/muːn/",
+    "imagePath": "assets/images/moon.png"
+  },
+  {
+    "word": "morning",
+    "definition": "the time period between dawn and noon",
+    "category": "General",
+    "transcription": "/ˈmɔː.nɪŋ/",
+    "imagePath": "assets/images/morning.png"
+  },
+  {
+    "word": "mother",
+    "definition": "a woman who has given birth to a child (also used as a term of address to your mother)",
+    "category": "General",
+    "transcription": "/ˈmʌð.ər/",
+    "imagePath": "assets/images/mother.png"
+  },
+  {
+    "word": "motion",
+    "definition": "the use of movements (especially of the hands) to communicate familiar or prearranged signals",
+    "category": "General",
+    "transcription": "/ˈməʊ.ʃən/",
+    "imagePath": "assets/images/motion.png"
+  },
+  {
+    "word": "mountain",
+    "definition": "a land mass that projects well above its surroundings; higher than a hill",
+    "category": "General",
+    "transcription": "/ˈmaʊn.tɪn/",
+    "imagePath": "assets/images/mountain.png"
+  },
+  {
+    "word": "mouth",
+    "definition": "the opening through which food is taken in and vocalizations emerge",
+    "category": "General",
+    "transcription": "/maʊθ/",
+    "imagePath": "assets/images/mouth.png"
+  },
+  {
+    "word": "move",
+    "definition": "the act of deciding to do something",
+    "category": "General",
+    "transcription": "/muːv/",
+    "imagePath": "assets/images/move.png"
+  },
+  {
+    "word": "much",
+    "definition": "a great amount or extent",
+    "category": "General",
+    "transcription": "/mʌtʃ/",
+    "imagePath": "assets/images/much.png"
+  },
+  {
+    "word": "muscle",
+    "definition": "one of the contractile organs of the body",
+    "category": "General",
+    "transcription": "/ˈmʌs.əl/",
+    "imagePath": "assets/images/muscle.png"
+  },
+  {
+    "word": "music",
+    "definition": "an artistic form of auditory communication incorporating instrumental or vocal tones in a structured and continuous manner",
+    "category": "General",
+    "transcription": "/ˈmjuː.zɪk/",
+    "imagePath": "assets/images/music.png"
+  },
+  {
+    "word": "nail",
+    "definition": "horny plate covering and protecting part of the dorsal surface of the digits",
+    "category": "General",
+    "transcription": "/neɪl/",
+    "imagePath": "assets/images/nail.png"
+  },
+  {
+    "word": "name",
+    "definition": "a language unit by which a person or thing is known",
+    "category": "General",
+    "transcription": "/neɪm/",
+    "imagePath": "assets/images/name.png"
+  },
+  {
+    "word": "narrow",
+    "definition": "a narrow strait connecting two bodies of water",
+    "category": "General",
+    "transcription": "/ˈnær.əʊ/",
+    "imagePath": "assets/images/narrow.png"
+  },
+  {
+    "word": "nation",
+    "definition": "a politically organized body of people under a single government",
+    "category": "General",
+    "transcription": "/ˈneɪ.ʃən/",
+    "imagePath": "assets/images/nation.png"
+  },
+  {
+    "word": "natural",
+    "definition": "someone regarded as certain to succeed",
+    "category": "General",
+    "transcription": "/ˈnætʃ.ər.əl/",
+    "imagePath": "assets/images/natural.png"
+  },
+  {
+    "word": "near",
+    "definition": "move towards",
+    "category": "General",
+    "transcription": "/nɪər/",
+    "imagePath": "assets/images/near.png"
+  },
+  {
+    "word": "necessary",
+    "definition": "anything indispensable",
+    "category": "General",
+    "transcription": "/ˈnes.ə.ser.i/",
+    "imagePath": "assets/images/necessary.png"
+  },
+  {
+    "word": "neck",
+    "definition": "the part of an organism (human or animal) that connects the head to the rest of the body",
+    "category": "General",
+    "transcription": "/nek/",
+    "imagePath": "assets/images/neck.png"
+  },
+  {
+    "word": "need",
+    "definition": "a condition requiring relief",
+    "category": "General",
+    "transcription": "/niːd/",
+    "imagePath": "assets/images/need.png"
+  },
+  {
+    "word": "needle",
+    "definition": "the leaf of a conifer",
+    "category": "General",
+    "transcription": "/ˈniː.dəl/",
+    "imagePath": "assets/images/needle.png"
+  },
+  {
+    "word": "nerve",
+    "definition": "any bundle of nerve fibers running to various organs and tissues of the body",
+    "category": "General",
+    "transcription": "/nɜːv/",
+    "imagePath": "assets/images/nerve.png"
+  },
+  {
+    "word": "net",
+    "definition": "a computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange",
+    "category": "General",
+    "transcription": "/net/",
+    "imagePath": "assets/images/net.png"
+  },
+  {
+    "word": "new",
+    "definition": "not of long duration; having just (or relatively recently) come into being or been made or acquired or discovered",
+    "category": "General",
+    "transcription": "/njuː/",
+    "imagePath": "assets/images/new.png"
+  },
+  {
+    "word": "news",
+    "definition": "information about recent and important events",
+    "category": "General",
+    "transcription": "/njuːz/",
+    "imagePath": "assets/images/news.png"
+  },
+  {
+    "word": "night",
+    "definition": "the time after sunset and before sunrise while it is dark outside",
+    "category": "General",
+    "transcription": "/naɪt/",
+    "imagePath": "assets/images/night.png"
+  },
+  {
+    "word": "no",
+    "definition": "a negative",
+    "category": "General",
+    "transcription": "/nəʊ/",
+    "imagePath": "assets/images/no.png"
+  },
+  {
+    "word": "noise",
+    "definition": "sound of any kind (especially unintelligible or dissonant sound)",
+    "category": "General",
+    "transcription": "/nɔɪz/",
+    "imagePath": "assets/images/noise.png"
+  },
+  {
+    "word": "normal",
+    "definition": "something regarded as a normative example",
+    "category": "General",
+    "transcription": "/ˈnɔː.məl/",
+    "imagePath": "assets/images/normal.png"
+  },
+  {
+    "word": "north",
+    "definition": "the region of the United States lying to the north of the Mason-Dixon line",
+    "category": "General",
+    "transcription": "/nɔːθ/",
+    "imagePath": "assets/images/north.png"
+  },
+  {
+    "word": "nose",
+    "definition": "the organ of smell and entrance to the respiratory tract; the prominent part of the face of man or other mammals",
+    "category": "General",
+    "transcription": "/nəʊz/",
+    "imagePath": "assets/images/nose.png"
+  },
+  {
+    "word": "not",
+    "definition": "negation of a word or group of words",
+    "category": "General",
+    "transcription": "/nɒt/",
+    "imagePath": "assets/images/not.png"
+  },
+  {
+    "word": "note",
+    "definition": "a brief written record",
+    "category": "General",
+    "transcription": "/nəʊt/",
+    "imagePath": "assets/images/note.png"
+  },
+  {
+    "word": "now",
+    "definition": "the momentary present",
+    "category": "General",
+    "transcription": "/naʊ/",
+    "imagePath": "assets/images/now.png"
+  },
+  {
+    "word": "number",
+    "definition": "the property possessed by a sum or total or indefinite quantity of units or individuals",
+    "category": "General",
+    "transcription": "/ˈnʌm.bər/",
+    "imagePath": "assets/images/number.png"
+  },
+  {
+    "word": "nut",
+    "definition": "usually large hard-shelled seed",
+    "category": "General",
+    "transcription": "/nʌt/",
+    "imagePath": "assets/images/nut.png"
+  },
+  {
+    "word": "observation",
+    "definition": "the act of making and recording a measurement",
+    "category": "General",
+    "transcription": "/ˌɒb.zəˈveɪ.ʃən/",
+    "imagePath": "assets/images/observation.png"
+  },
+  {
+    "word": "off",
+    "definition": "kill intentionally and with premeditation",
+    "category": "General",
+    "transcription": "/ɒf/",
+    "imagePath": "assets/images/off.png"
+  },
+  {
+    "word": "offer",
+    "definition": "the verbal act of offering",
+    "category": "General",
+    "transcription": "/ˈɒf.ər/",
+    "imagePath": "assets/images/offer.png"
+  },
+  {
+    "word": "office",
+    "definition": "place of business where professional or clerical duties are performed",
+    "category": "General",
+    "transcription": "/ˈɒf.ɪs/",
+    "imagePath": "assets/images/office.png"
+  },
+  {
+    "word": "oil",
+    "definition": "a slippery or viscous liquid or liquefiable substance not miscible with water",
+    "category": "General",
+    "transcription": "/ɔɪl/",
+    "imagePath": "assets/images/oil.png"
+  },
+  {
+    "word": "old",
+    "definition": "past times (especially in the phrase `in days of old')",
+    "category": "General",
+    "transcription": "/əʊld/",
+    "imagePath": "assets/images/old.png"
+  },
+  {
+    "word": "on",
+    "definition": "in operation or operational",
+    "category": "General",
+    "transcription": "/ɒn/",
+    "imagePath": "assets/images/on.png"
+  },
+  {
+    "word": "only",
+    "definition": "being the only one; single and isolated from others",
+    "category": "General",
+    "transcription": "/ˈəʊn.li/",
+    "imagePath": "assets/images/only.png"
+  },
+  {
+    "word": "open",
+    "definition": "a clear or unobstructed space or expanse of land or water",
+    "category": "General",
+    "transcription": "/ˈəʊ.pən/",
+    "imagePath": "assets/images/open.png"
+  },
+  {
+    "word": "operation",
+    "definition": "the state of being in effect or being operative",
+    "category": "General",
+    "transcription": "/ˌɒp.əˈreɪ.ʃən/",
+    "imagePath": "assets/images/operation.png"
+  },
+  {
+    "word": "opinion",
+    "definition": "a personal belief or judgment that is not founded on proof or certainty",
+    "category": "General",
+    "transcription": "/əˈpɪn.jən/",
+    "imagePath": "assets/images/opinion.png"
+  },
+  {
+    "word": "opposite",
+    "definition": "a word that expresses a meaning opposed to the meaning of another word, in which case the two words are antonyms of each other",
+    "category": "General",
+    "transcription": "/ˈɒp.ə.zɪt/",
+    "imagePath": "assets/images/opposite.png"
+  },
+  {
+    "word": "or",
+    "definition": "a state in northwestern United States on the Pacific",
+    "category": "General",
+    "transcription": "/ɔːr/",
+    "imagePath": "assets/images/or.png"
+  },
+  {
+    "word": "orange",
+    "definition": "round yellow to orange fruit of any of several citrus trees",
+    "category": "General",
+    "transcription": "/ˈɒr.ɪndʒ/",
+    "imagePath": "assets/images/orange.png"
+  },
+  {
+    "word": "order",
+    "definition": "(often plural) a command given by a superior (e.g., a military or law enforcement officer) that must be obeyed",
+    "category": "General",
+    "transcription": "/ˈɔː.dər/",
+    "imagePath": "assets/images/order.png"
+  },
+  {
+    "word": "organization",
+    "definition": "a group of people who work together",
+    "category": "General",
+    "transcription": "/ˌɔː.ɡə.naɪˈzeɪ.ʃən/",
+    "imagePath": "assets/images/organization.png"
+  },
+  {
+    "word": "ornament",
+    "definition": "something used to beautify",
+    "category": "General",
+    "transcription": "/ˈɔː.nə.mənt/",
+    "imagePath": "assets/images/ornament.png"
+  },
+  {
+    "word": "other",
+    "definition": "not the same one or ones already mentioned or implied; - the White Queen",
+    "category": "General",
+    "transcription": "/ˈʌð.ər/",
+    "imagePath": "assets/images/other.png"
+  },
+  {
+    "word": "out",
+    "definition": "(baseball) a failure by a batter or runner to reach a base safely in baseball",
+    "category": "General",
+    "transcription": "/aʊt/",
+    "imagePath": "assets/images/out.png"
+  },
+  {
+    "word": "oven",
+    "definition": "kitchen appliance used for baking or roasting",
+    "category": "General",
+    "transcription": "/ˈʌv.ən/",
+    "imagePath": "assets/images/oven.png"
+  },
+  {
+    "word": "over",
+    "definition": "(cricket) the division of play during which six balls are bowled at the batsman by one player from the other team from the same end of the pitch",
+    "category": "General",
+    "transcription": "/ˈəʊ.vər/",
+    "imagePath": "assets/images/over.png"
+  },
+  {
+    "word": "owner",
+    "definition": "(law) someone who owns (is legal possessor of) a business",
+    "category": "General",
+    "transcription": "/ˈəʊ.nər/",
+    "imagePath": "assets/images/owner.png"
+  },
+  {
+    "word": "page",
+    "definition": "one side of one leaf (of a book or magazine or newspaper or letter etc.) or the written or pictorial matter it contains",
+    "category": "General",
+    "transcription": "/peɪdʒ/",
+    "imagePath": "assets/images/page.png"
+  },
+  {
+    "word": "pain",
+    "definition": "a symptom of some physical hurt or disorder",
+    "category": "General",
+    "transcription": "/peɪn/",
+    "imagePath": "assets/images/pain.png"
+  },
+  {
+    "word": "paint",
+    "definition": "a substance used as a coating to protect or decorate a surface (especially a mixture of pigment suspended in a liquid); dries to form a hard coating",
+    "category": "General",
+    "transcription": "/peɪnt/",
+    "imagePath": "assets/images/paint.png"
+  },
+  {
+    "word": "paper",
+    "definition": "a material made of cellulose pulp derived mainly from wood or rags or certain grasses",
+    "category": "General",
+    "transcription": "/ˈpeɪ.pər/",
+    "imagePath": "assets/images/paper.png"
+  },
+  {
+    "word": "parallel",
+    "definition": "something having the property of being analogous to something else",
+    "category": "General",
+    "transcription": "/ˈpær.ə.lel/",
+    "imagePath": "assets/images/parallel.png"
+  },
+  {
+    "word": "parcel",
+    "definition": "a wrapped container",
+    "category": "General",
+    "transcription": "/ˈpɑː.səl/",
+    "imagePath": "assets/images/parcel.png"
+  },
+  {
+    "word": "part",
+    "definition": "something determined in relation to something that includes it",
+    "category": "General",
+    "transcription": "/pɑːt/",
+    "imagePath": "assets/images/part.png"
+  },
+  {
+    "word": "past",
+    "definition": "the time that has elapsed",
+    "category": "General",
+    "transcription": "/pɑːst/",
+    "imagePath": "assets/images/past.png"
+  },
+  {
+    "word": "paste",
+    "definition": "any mixture of a soft and malleable consistency",
+    "category": "General",
+    "transcription": "/peɪst/",
+    "imagePath": "assets/images/paste.png"
+  },
+  {
+    "word": "payment",
+    "definition": "a sum of money paid or a claim discharged",
+    "category": "General",
+    "transcription": "/ˈpeɪ.mənt/",
+    "imagePath": "assets/images/payment.png"
+  },
+  {
+    "word": "peace",
+    "definition": "the state prevailing during the absence of war",
+    "category": "General",
+    "transcription": "/piːs/",
+    "imagePath": "assets/images/peace.png"
+  },
+  {
+    "word": "pen",
+    "definition": "a writing implement with a point from which ink flows",
+    "category": "General",
+    "transcription": "/pɛn/",
+    "imagePath": "assets/images/pen.png"
+  },
+  {
+    "word": "pencil",
+    "definition": "a thin cylindrical pointed writing implement; a rod of marking substance encased in wood",
+    "category": "General",
+    "transcription": "/ˈpɛn.sɪl/",
+    "imagePath": "assets/images/pencil.png"
+  },
+  {
+    "word": "person",
+    "definition": "a human being",
+    "category": "General",
+    "transcription": "/ˈpɜː.sən/",
+    "imagePath": "assets/images/person.png"
+  },
+  {
+    "word": "physical",
+    "definition": "involving the body as distinguished from the mind or spirit",
+    "category": "General",
+    "transcription": "/ˈfɪz.ɪ.kəl/",
+    "imagePath": "assets/images/physical.png"
+  },
+  {
+    "word": "picture",
+    "definition": "a visual representation (of an object or scene or person or abstraction) produced on a surface",
+    "category": "General",
+    "transcription": "/ˈpɪk.tʃər/",
+    "imagePath": "assets/images/picture.png"
+  },
+  {
+    "word": "pig",
+    "definition": "domestic swine",
+    "category": "General",
+    "transcription": "/pɪɡ/",
+    "imagePath": "assets/images/pig.png"
+  },
+  {
+    "word": "pin",
+    "definition": "a piece of jewelry that is pinned onto the wearer's garment",
+    "category": "General",
+    "transcription": "/pɪn/",
+    "imagePath": "assets/images/pin.png"
+  },
+  {
+    "word": "pipe",
+    "definition": "a tube with a small bowl at one end; used for smoking tobacco",
+    "category": "General",
+    "transcription": "/paɪp/",
+    "imagePath": "assets/images/pipe.png"
+  },
+  {
+    "word": "place",
+    "definition": "a point located with respect to surface features of some region",
+    "category": "General",
+    "transcription": "/pleɪs/",
+    "imagePath": "assets/images/place.png"
+  },
+  {
+    "word": "plane",
+    "definition": "an aircraft that has a fixed wing and is powered by propellers or jets",
+    "category": "General",
+    "transcription": "/pleɪn/",
+    "imagePath": "assets/images/plane.png"
+  },
+  {
+    "word": "plant",
+    "definition": "buildings for carrying on industrial labor",
+    "category": "General",
+    "transcription": "/plænt/",
+    "imagePath": "assets/images/plant.png"
+  },
+  {
+    "word": "plate",
+    "definition": "(baseball) base consisting of a rubber slab where the batter stands; it must be touched by a base runner in order to score",
+    "category": "General",
+    "transcription": "/pleɪt/",
+    "imagePath": "assets/images/plate.png"
+  },
+  {
+    "word": "play",
+    "definition": "a dramatic work intended for performance by actors on a stage",
+    "category": "General",
+    "transcription": "/pleɪ/",
+    "imagePath": "assets/images/play.png"
+  },
+  {
+    "word": "please",
+    "definition": "give pleasure to or be pleasing to",
+    "category": "General",
+    "transcription": "/pliːz/",
+    "imagePath": "assets/images/please.png"
+  },
+  {
+    "word": "pleasure",
+    "definition": "a fundamental feeling that is hard to define but that people desire to experience",
+    "category": "General",
+    "transcription": "/ˈplɛʒ.ər/",
+    "imagePath": "assets/images/pleasure.png"
+  },
+  {
+    "word": "plough",
+    "definition": "a group of seven bright stars in the constellation Ursa Major",
+    "category": "General",
+    "transcription": "/plaʊ/",
+    "imagePath": "assets/images/plough.png"
+  },
+  {
+    "word": "pocket",
+    "definition": "a small pouch inside a garment for carrying small articles",
+    "category": "General",
+    "transcription": "/ˈpɒk.ɪt/",
+    "imagePath": "assets/images/pocket.png"
+  },
+  {
+    "word": "point",
+    "definition": "a geometric element that has position but no extension",
+    "category": "General",
+    "transcription": "/pɔɪnt/",
+    "imagePath": "assets/images/point.png"
+  },
+  {
+    "word": "poison",
+    "definition": "any substance that causes injury or illness or death of a living organism",
+    "category": "General",
+    "transcription": "/ˈpɔɪ.zən/",
+    "imagePath": "assets/images/poison.png"
+  },
+  {
+    "word": "polish",
+    "definition": "the property of being smooth and shiny",
+    "category": "General",
+    "transcription": "/ˈpɒl.ɪʃ/",
+    "imagePath": "assets/images/polish.png"
+  },
+  {
+    "word": "political",
+    "definition": "involving or characteristic of politics or parties or politicians; - Daniel Goleman",
+    "category": "General",
+    "transcription": "/pəˈlɪt.ɪ.kəl/",
+    "imagePath": "assets/images/political.png"
+  },
+  {
+    "word": "poor",
+    "definition": "people without possessions or wealth (considered as a group)",
+    "category": "General",
+    "transcription": "/pɔːr/",
+    "imagePath": "assets/images/poor.png"
+  },
+  {
+    "word": "porter",
+    "definition": "a person employed to carry luggage and supplies",
+    "category": "General",
+    "transcription": "/ˈpɔː.tər/",
+    "imagePath": "assets/images/porter.png"
+  },
+  {
+    "word": "position",
+    "definition": "the particular portion of space occupied by something",
+    "category": "General",
+    "transcription": "/pəˈzɪʃ.ən/",
+    "imagePath": "assets/images/position.png"
+  },
+  {
+    "word": "possible",
+    "definition": "something that can be done",
+    "category": "General",
+    "transcription": "/ˈpɒs.ɪ.bəl/",
+    "imagePath": "assets/images/possible.png"
+  },
+  {
+    "word": "pot",
+    "definition": "metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid",
+    "category": "General",
+    "transcription": "/pɒt/",
+    "imagePath": "assets/images/pot.png"
+  },
+  {
+    "word": "potato",
+    "definition": "an edible tuber native to South America; a staple food of Ireland",
+    "category": "General",
+    "transcription": "/pəˈteɪ.təʊ/",
+    "imagePath": "assets/images/potato.png"
+  },
+  {
+    "word": "powder",
+    "definition": "a solid substance in the form of tiny loose particles; a solid that has been pulverized",
+    "category": "General",
+    "transcription": "/ˈpaʊ.dər/",
+    "imagePath": "assets/images/powder.png"
+  },
+  {
+    "word": "power",
+    "definition": "possession of controlling influence",
+    "category": "General",
+    "transcription": "/ˈpaʊər/",
+    "imagePath": "assets/images/power.png"
+  },
+  {
+    "word": "present",
+    "definition": "the period of time that is happening now; any continuous stretch of time including the moment of speech",
+    "category": "General",
+    "transcription": "/ˈprɛzənt/",
+    "imagePath": "assets/images/present.png"
+  },
+  {
+    "word": "price",
+    "definition": "the property of having material worth (often indicated by the amount of money something would bring if sold)",
+    "category": "General",
+    "transcription": "/praɪs/",
+    "imagePath": "assets/images/price.png"
+  },
+  {
+    "word": "print",
+    "definition": "the text appearing in a book, newspaper, or other printed publication",
+    "category": "General",
+    "transcription": "/prɪnt/",
+    "imagePath": "assets/images/print.png"
+  },
+  {
+    "word": "prison",
+    "definition": "a correctional institution where persons are confined while on trial or for punishment",
+    "category": "General",
+    "transcription": "/ˈprɪzən/",
+    "imagePath": "assets/images/prison.png"
+  },
+  {
+    "word": "private",
+    "definition": "an enlisted man of the lowest rank in the Army or Marines",
+    "category": "General",
+    "transcription": "/ˈpraɪvət/",
+    "imagePath": "assets/images/private.png"
+  },
+  {
+    "word": "probable",
+    "definition": "an applicant likely to be chosen",
+    "category": "General",
+    "transcription": "/ˈprɒbəbəl/",
+    "imagePath": "assets/images/probable.png"
+  },
+  {
+    "word": "process",
+    "definition": "a particular course of action intended to achieve a result",
+    "category": "General",
+    "transcription": "/ˈprəʊsɛs/",
+    "imagePath": "assets/images/process.png"
+  },
+  {
+    "word": "produce",
+    "definition": "fresh fruits and vegetable grown for the market",
+    "category": "General",
+    "transcription": "/ˈprəʊdjuːs/",
+    "imagePath": "assets/images/produce.png"
+  },
+  {
+    "word": "profit",
+    "definition": "the excess of revenues over outlays in a given period of time (including depreciation and other non-cash expenses)",
+    "category": "General",
+    "transcription": "/ˈprɒfɪt/",
+    "imagePath": "assets/images/profit.png"
+  },
+  {
+    "word": "property",
+    "definition": "something owned; any tangible or intangible possession that is owned by someone",
+    "category": "General",
+    "transcription": "/ˈprɒpəti/",
+    "imagePath": "assets/images/property.png"
+  },
+  {
+    "word": "prose",
+    "definition": "ordinary writing as distinguished from verse",
+    "category": "General",
+    "transcription": "/prəʊz/",
+    "imagePath": "assets/images/prose.png"
+  },
+  {
+    "word": "protest",
+    "definition": "a formal and solemn declaration of objection",
+    "category": "General",
+    "transcription": "/ˈprəʊtɛst/",
+    "imagePath": "assets/images/protest.png"
+  },
+  {
+    "word": "public",
+    "definition": "people in general considered as a whole",
+    "category": "General",
+    "transcription": "/ˈpʌblɪk/",
+    "imagePath": "assets/images/public.png"
+  },
+  {
+    "word": "pull",
+    "definition": "the act of pulling; applying force to move something toward or with you",
+    "category": "General",
+    "transcription": "/pʊl/",
+    "imagePath": "assets/images/pull.png"
+  },
+  {
+    "word": "pump",
+    "definition": "a mechanical device that moves fluid or gas by pressure or suction",
+    "category": "General",
+    "transcription": "/pʌmp/",
+    "imagePath": "assets/images/pump.png"
+  },
+  {
+    "word": "punishment",
+    "definition": "the act of punishing",
+    "category": "General",
+    "transcription": "/ˈpʌnɪʃmənt/",
+    "imagePath": "assets/images/punishment.png"
+  },
+  {
+    "word": "purpose",
+    "definition": "an anticipated outcome that is intended or that guides your planned actions",
+    "category": "General",
+    "transcription": "/ˈpɜːpəs/",
+    "imagePath": "assets/images/purpose.png"
+  },
+  {
+    "word": "push",
+    "definition": "the act of applying force in order to move something away",
+    "category": "General",
+    "transcription": "/pʊʃ/",
+    "imagePath": "assets/images/push.png"
+  },
+  {
+    "word": "put",
+    "definition": "the option to sell a given stock (or stock index or commodity future) at a given price before a given date",
+    "category": "General",
+    "transcription": "/pʊt/",
+    "imagePath": "assets/images/put.png"
+  },
+  {
+    "word": "quality",
+    "definition": "an essential and distinguishing attribute of something or someone; --Shakespeare",
+    "category": "General",
+    "transcription": "/ˈkwɒləti/",
+    "imagePath": "assets/images/quality.png"
+  },
+  {
+    "word": "question",
+    "definition": "an instance of questioning",
+    "category": "General",
+    "transcription": "/ˈkwɛstʃən/",
+    "imagePath": "assets/images/question.png"
+  },
+  {
+    "word": "quick",
+    "definition": "any area of the body that is highly sensitive to pain (as the flesh underneath the skin or a fingernail or toenail)",
+    "category": "General",
+    "transcription": "/kwɪk/",
+    "imagePath": "assets/images/quick.png"
+  },
+  {
+    "word": "quiet",
+    "definition": "a period of calm weather",
+    "category": "General",
+    "transcription": "/ˈkwaɪət/",
+    "imagePath": "assets/images/quiet.png"
+  },
+  {
+    "word": "quite",
+    "definition": "to a degree (not used with a negative)",
+    "category": "General",
+    "transcription": "/kwaɪt/",
+    "imagePath": "assets/images/quite.png"
+  },
+  {
+    "word": "rail",
+    "definition": "a barrier consisting of a horizontal bar and supports",
+    "category": "General",
+    "transcription": "/reɪl/",
+    "imagePath": "assets/images/rail.png"
+  },
+  {
+    "word": "rain",
+    "definition": "water falling in drops from vapor condensed in the atmosphere",
+    "category": "General",
+    "transcription": "/reɪn/",
+    "imagePath": "assets/images/rain.png"
+  },
+  {
+    "word": "range",
+    "definition": "an area in which something acts or operates or has power or control",
+    "category": "General",
+    "transcription": "/reɪndʒ/",
+    "imagePath": "assets/images/range.png"
+  },
+  {
+    "word": "rat",
+    "definition": "any of various long-tailed rodents similar to but larger than a mouse",
+    "category": "General",
+    "transcription": "/ræt/",
+    "imagePath": "assets/images/rat.png"
+  },
+  {
+    "word": "rate",
+    "definition": "a magnitude or frequency relative to a time unit",
+    "category": "General",
+    "transcription": "/reɪt/",
+    "imagePath": "assets/images/rate.png"
+  },
+  {
+    "word": "ray",
+    "definition": "a column of light (as from a beacon)",
+    "category": "General",
+    "transcription": "/reɪ/",
+    "imagePath": "assets/images/ray.png"
+  },
+  {
+    "word": "reaction",
+    "definition": "(chemistry) a process in which one or more substances are changed into others",
+    "category": "General",
+    "transcription": "/rɪˈækʃən/",
+    "imagePath": "assets/images/reaction.png"
+  },
+  {
+    "word": "reading",
+    "definition": "the cognitive process of understanding a written linguistic message",
+    "category": "General",
+    "transcription": "/ˈriːdɪŋ/",
+    "imagePath": "assets/images/reading.png"
+  },
+  {
+    "word": "ready",
+    "definition": "poised for action",
+    "category": "General",
+    "transcription": "/ˈrɛdi/",
+    "imagePath": "assets/images/ready.png"
+  },
+  {
+    "word": "reason",
+    "definition": "a rational motive for a belief or action",
+    "category": "General",
+    "transcription": "/ˈriːzən/",
+    "imagePath": "assets/images/reason.png"
+  },
+  {
+    "word": "receipt",
+    "definition": "the act of receiving",
+    "category": "General",
+    "transcription": "/rɪˈsiːt/",
+    "imagePath": "assets/images/receipt.png"
+  },
+  {
+    "word": "record",
+    "definition": "anything (such as a document or a phonograph record or a photograph) providing permanent evidence of or information about past events",
+    "category": "General",
+    "transcription": "/ˈrɛkɔːd/",
+    "imagePath": "assets/images/record.png"
+  },
+  {
+    "word": "red",
+    "definition": "red color or pigment; the chromatic color resembling the hue of blood",
+    "category": "General",
+    "transcription": "/rɛd/",
+    "imagePath": "assets/images/red.png"
+  },
+  {
+    "word": "regret",
+    "definition": "sadness associated with some wrong done or some disappointment",
+    "category": "General",
+    "transcription": "/rɪˈɡrɛt/",
+    "imagePath": "assets/images/regret.png"
+  },
+  {
+    "word": "regular",
+    "definition": "a regular patron",
+    "category": "General",
+    "transcription": "/ˈrɛɡjʊlər/",
+    "imagePath": "assets/images/regular.png"
+  },
+  {
+    "word": "relation",
+    "definition": "an abstraction belonging to or characteristic of two entities or parts together",
+    "category": "General",
+    "transcription": "/rɪˈleɪʃən/",
+    "imagePath": "assets/images/relation.png"
+  },
+  {
+    "word": "religion",
+    "definition": "a strong belief in a supernatural power or powers that control human destiny",
+    "category": "General",
+    "transcription": "/rɪˈlɪdʒən/",
+    "imagePath": "assets/images/religion.png"
+  },
+  {
+    "word": "representative",
+    "definition": "a person who represents others",
+    "category": "General",
+    "transcription": "/ˌrɛprɪˈzɛntətɪv/",
+    "imagePath": "assets/images/representative.png"
+  },
+  {
+    "word": "request",
+    "definition": "a formal message requesting something that is submitted to an authority",
+    "category": "General",
+    "transcription": "/rɪˈkwɛst/",
+    "imagePath": "assets/images/request.png"
+  },
+  {
+    "word": "respect",
+    "definition": "(usually preceded by `in') a detail or point",
+    "category": "General",
+    "transcription": "/rɪˈspɛkt/",
+    "imagePath": "assets/images/respect.png"
+  },
+  {
+    "word": "responsible",
+    "definition": "worthy of or requiring responsibility or trust; or held accountable",
+    "category": "General",
+    "transcription": "/rɪˈspɒnsɪbəl/",
+    "imagePath": "assets/images/responsible.png"
+  },
+  {
+    "word": "rest",
+    "definition": "something left after other parts have been taken away",
+    "category": "General",
+    "transcription": "/rɛst/",
+    "imagePath": "assets/images/rest.png"
+  },
+  {
+    "word": "reward",
+    "definition": "a recompense for worthy acts or retribution for wrongdoing",
+    "category": "General",
+    "transcription": "/rɪˈwɔːd/",
+    "imagePath": "assets/images/reward.png"
+  },
+  {
+    "word": "rhythm",
+    "definition": "the basic rhythmic unit in a piece of music",
+    "category": "General",
+    "transcription": "/ˈrɪðəm/",
+    "imagePath": "assets/images/rhythm.png"
+  },
+  {
+    "word": "rice",
+    "definition": "grains used as food either unpolished or more often polished",
+    "category": "General",
+    "transcription": "/raɪs/",
+    "imagePath": "assets/images/rice.png"
+  },
+  {
+    "word": "right",
+    "definition": "an abstract idea of that which is due to a person or governmental body by law or tradition or nature; - Eleanor Roosevelt",
+    "category": "General",
+    "transcription": "/raɪt/",
+    "imagePath": "assets/images/right.png"
+  },
+  {
+    "word": "ring",
+    "definition": "a characteristic sound",
+    "category": "General",
+    "transcription": "/rɪŋ/",
+    "imagePath": "assets/images/ring.png"
+  },
+  {
+    "word": "river",
+    "definition": "a large natural stream of water (larger than a creek)",
+    "category": "General",
+    "transcription": "/ˈrɪvər/",
+    "imagePath": "assets/images/river.png"
+  },
+  {
+    "word": "road",
+    "definition": "an open way (generally public) for travel or transportation",
+    "category": "General",
+    "transcription": "/roʊd/",
+    "imagePath": "assets/images/road.png"
+  },
+  {
+    "word": "rod",
+    "definition": "a long thin implement made of metal or wood",
+    "category": "General",
+    "transcription": "/rɒd/",
+    "imagePath": "assets/images/rod.png"
+  },
+  {
+    "word": "roll",
+    "definition": "rotary motion of an object around its own axis",
+    "category": "General",
+    "transcription": "/roʊl/",
+    "imagePath": "assets/images/roll.png"
+  },
+  {
+    "word": "roof",
+    "definition": "a protective covering that covers or forms the top of a building",
+    "category": "General",
+    "transcription": "/ruːf/",
+    "imagePath": "assets/images/roof.png"
+  },
+  {
+    "word": "room",
+    "definition": "an area within a building enclosed by walls and floor and ceiling",
+    "category": "General",
+    "transcription": "/ruːm/",
+    "imagePath": "assets/images/room.png"
+  },
+  {
+    "word": "root",
+    "definition": "(botany) the usually underground organ that lacks buds or leaves or nodes; absorbs water and mineral salts; usually it anchors the plant to the ground",
+    "category": "General",
+    "transcription": "/ruːt/",
+    "imagePath": "assets/images/root.png"
+  },
+  {
+    "word": "rough",
+    "definition": "the part of a golf course bordering the fairway where the grass is not cut short",
+    "category": "General",
+    "transcription": "/rʌf/",
+    "imagePath": "assets/images/rough.png"
+  },
+  {
+    "word": "round",
+    "definition": "a charge of ammunition for a single shot",
+    "category": "General",
+    "transcription": "/raʊnd/",
+    "imagePath": "assets/images/round.png"
+  },
+  {
+    "word": "rub",
+    "definition": "an unforeseen obstacle",
+    "category": "General",
+    "transcription": "/rʌb/",
+    "imagePath": "assets/images/rub.png"
+  },
+  {
+    "word": "rule",
+    "definition": "a principle or condition that customarily governs behavior",
+    "category": "General",
+    "transcription": "/ruːl/",
+    "imagePath": "assets/images/rule.png"
+  },
+  {
+    "word": "run",
+    "definition": "a score in baseball made by a runner touching all four bases safely",
+    "category": "General",
+    "transcription": "/rʌn/",
+    "imagePath": "assets/images/run.png"
+  },
+  {
+    "word": "sad",
+    "definition": "experiencing or showing sorrow or unhappiness; - Christina Rossetti",
+    "category": "General",
+    "transcription": "/sæd/",
+    "imagePath": "assets/images/sad.png"
+  },
+  {
+    "word": "safe",
+    "definition": "strongbox where valuables can be safely kept",
+    "category": "General",
+    "transcription": "/seɪf/",
+    "imagePath": "assets/images/safe.png"
+  }
+]

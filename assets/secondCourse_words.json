@@ -1,0 +1,1402 @@
+[
+  {
+    "word": "disgust",
+    "definition": "strong feelings of dislike",
+    "category": "General",
+    "transcription": "/dɪsˈɡʌst/",
+    "imagepath": "path/to/image/disgust.jpg"
+  },
+  {
+    "word": "distance",
+    "definition": "the property created by the space between two objects or points",
+    "category": "General",
+    "transcription": "/ˈdɪstəns/",
+    "imagepath": "path/to/image/distance.jpg"
+  },
+  {
+    "word": "distribution",
+    "definition": "(statistics) an arrangement of values of a variable showing their observed or theoretical frequency of occurrence",
+    "category": "General",
+    "transcription": "/ˌdɪstrɪˈbjuːʃən/",
+    "imagepath": "path/to/image/distribution.jpg"
+  },
+  {
+    "word": "division",
+    "definition": "an army unit large enough to sustain combat",
+    "category": "General",
+    "transcription": "/dɪˈvɪʒən/",
+    "imagepath": "path/to/image/division.jpg"
+  },
+  {
+    "word": "do",
+    "definition": "an uproarious party",
+    "category": "General",
+    "transcription": "/duː/",
+    "imagepath": "path/to/image/do.jpg"
+  },
+  {
+    "word": "dog",
+    "definition": "a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds",
+    "category": "General",
+    "transcription": "/dɔːɡ/",
+    "imagepath": "path/to/image/dog.jpg"
+  },
+  {
+    "word": "door",
+    "definition": "a swinging or sliding barrier that will close the entrance to a room or building or vehicle",
+    "category": "General",
+    "transcription": "/dɔːr/",
+    "imagepath": "path/to/image/door.jpg"
+  },
+  {
+    "word": "doubt",
+    "definition": "the state of being unsure of something",
+    "category": "General",
+    "transcription": "/daʊt/",
+    "imagepath": "path/to/image/doubt.jpg"
+  },
+  {
+    "word": "down",
+    "definition": "soft fine feathers",
+    "category": "General",
+    "transcription": "/daʊn/",
+    "imagepath": "path/to/image/down.jpg"
+  },
+  {
+    "word": "drain",
+    "definition": "emptying something accomplished by allowing liquid to run out of it",
+    "category": "General",
+    "transcription": "/dreɪn/",
+    "imagepath": "path/to/image/drain.jpg"
+  },
+  {
+    "word": "drawer",
+    "definition": "a boxlike container in a piece of furniture; made so as to slide in and out",
+    "category": "General",
+    "transcription": "/drɔːr/",
+    "imagepath": "path/to/image/drawer.jpg"
+  },
+  {
+    "word": "dress",
+    "definition": "a one-piece garment for a woman; has skirt and bodice",
+    "category": "General",
+    "transcription": "/drɛs/",
+    "imagepath": "path/to/image/dress.jpg"
+  },
+  {
+    "word": "drink",
+    "definition": "a single serving of a beverage",
+    "category": "General",
+    "transcription": "/drɪŋk/",
+    "imagepath": "path/to/image/drink.jpg"
+  },
+  {
+    "word": "driving",
+    "definition": "hitting a golf ball off of a tee with a driver",
+    "category": "General",
+    "transcription": "/ˈdraɪvɪŋ/",
+    "imagepath": "path/to/image/driving.jpg"
+  },
+  {
+    "word": "drop",
+    "definition": "a shape that is spherical and small",
+    "category": "General",
+    "transcription": "/drɒp/",
+    "imagepath": "path/to/image/drop.jpg"
+  },
+  {
+    "word": "dry",
+    "definition": "a reformer who opposes the use of intoxicating beverages",
+    "category": "General",
+    "imagePath": "assets/images/dry.png",
+    "transcription": "/draɪ/"
+  },
+  {
+    "word": "dust",
+    "definition": "fine powdery material such as dry earth or pollen that can be blown about in the air",
+    "category": "General",
+    "imagePath": "assets/images/dust.png",
+    "transcription": "/dʌst/"
+  },
+  {
+    "word": "ear",
+    "definition": "the sense organ for hearing and equilibrium",
+    "category": "General",
+    "imagePath": "assets/images/ear.png",
+    "transcription": "/ɪə/"
+  },
+  {
+    "word": "early",
+    "definition": "at or near the beginning of a period of time or course of events or before the usual or expected time",
+    "category": "General",
+    "imagePath": "assets/images/early.png",
+    "transcription": "/ˈɜː.li/"
+  },
+  {
+    "word": "earth",
+    "definition": "the 3rd planet from the sun; the planet we live on",
+    "category": "General",
+    "imagePath": "assets/images/earth.png",
+    "transcription": "/ɜːθ/"
+  },
+  {
+    "word": "east",
+    "definition": "the cardinal compass point that is at 90 degrees",
+    "category": "General",
+    "imagePath": "assets/images/east.png",
+    "transcription": "/iːst/"
+  },
+  {
+    "word": "edge",
+    "definition": "the boundary of a surface",
+    "category": "General",
+    "imagePath": "assets/images/edge.png",
+    "transcription": "/ɛdʒ/"
+  },
+  {
+    "word": "education",
+    "definition": "the activities of educating or instructing; activities that impart knowledge or skill",
+    "category": "General",
+    "imagePath": "assets/images/education.png",
+    "transcription": "/ˌedʒʊˈkeɪʃən/"
+  },
+  {
+    "word": "effect",
+    "definition": "a phenomenon that follows and is caused by some previous phenomenon",
+    "category": "General",
+    "imagePath": "assets/images/effect.png",
+    "transcription": "/ɪˈfɛkt/"
+  },
+  {
+    "word": "egg",
+    "definition": "animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes; especially the thin-shelled reproductive body laid by e.g. female birds",
+    "category": "General",
+    "imagePath": "assets/images/egg.png",
+    "transcription": "/ɛɡ/"
+  },
+  {
+    "word": "elastic",
+    "definition": "a narrow band of elastic rubber used to hold things (such as papers) together",
+    "category": "General",
+    "imagePath": "assets/images/elastic.png",
+    "transcription": "/ɪˈlæstɪk/"
+  },
+  {
+    "word": "electric",
+    "definition": "a car that is powered by electricity",
+    "category": "General",
+    "imagePath": "assets/images/electric.png",
+    "transcription": "/ɪˈlɛktrɪk/"
+  },
+  {
+    "word": "end",
+    "definition": "either extremity of something that has length",
+    "category": "General",
+    "imagePath": "assets/images/end.png",
+    "transcription": "/ɛnd/"
+  },
+  {
+    "word": "engine",
+    "definition": "motor that converts thermal energy to mechanical work",
+    "category": "General",
+    "imagePath": "assets/images/engine.png",
+    "transcription": "/ˈɛn.dʒɪn/"
+  },
+  {
+    "word": "enough",
+    "definition": "an adequate quantity; a quantity that is large enough to achieve a purpose",
+    "category": "General",
+    "imagePath": "assets/images/enough.png",
+    "transcription": "/ɪˈnʌf/"
+  },
+  {
+    "word": "equal",
+    "definition": "a person who is of equal standing with another in a group",
+    "category": "General",
+    "imagePath": "assets/images/equal.png",
+    "transcription": "/ˈiːkwəl/"
+  },
+  {
+    "word": "error",
+    "definition": "a wrong action attributable to bad judgment or ignorance or inattention",
+    "category": "General",
+    "imagePath": "assets/images/error.png",
+    "transcription": "/ˈɛrər/"
+  },
+  {
+    "word": "even",
+    "definition": "the latter part of the day (the period of decreasing daylight from late afternoon until nightfall)",
+    "category": "General",
+    "imagePath": "assets/images/even.png",
+    "transcription": "/ˈiːvən/"
+  },
+  {
+    "word": "event",
+    "definition": "something that happens at a given place and time",
+    "category": "General",
+    "imagePath": "assets/images/event.png",
+    "transcription": "/ɪˈvɛnt/"
+  },
+  {
+    "word": "ever",
+    "definition": "at any time",
+    "category": "General",
+    "imagePath": "assets/images/ever.png",
+    "transcription": "/ˈɛvər/"
+  },
+  {
+    "word": "every",
+    "definition": "(used of count nouns) each and all of the members of a group considered singly and without exception",
+    "category": "General",
+    "imagePath": "assets/images/every.png",
+    "transcription": "/ˈɛvri/"
+  },
+  {
+    "word": "example",
+    "definition": "an item of information that is typical of a class or group",
+    "category": "General",
+    "imagePath": "assets/images/example.png",
+    "transcription": "/ɪɡˈzɑːmpl/"
+  },
+  {
+    "word": "exchange",
+    "definition": "chemical process in which one atom or ion or group changes places with another",
+    "category": "General",
+    "imagePath": "assets/images/exchange.png",
+    "transcription": "/ɪksˈtʃeɪndʒ/"
+  },
+  {
+    "word": "existence",
+    "definition": "the state or fact of existing",
+    "category": "General",
+    "imagePath": "assets/images/existence.png",
+    "transcription": "/ɪɡˈzɪstəns/"
+  },
+  {
+    "word": "expansion",
+    "definition": "the act of increasing (something) in size or volume or quantity or scope",
+    "category": "General",
+    "imagePath": "assets/images/expansion.png",
+    "transcription": "/ɪkˈspænʃən/"
+  },
+  {
+    "word": "experience",
+    "definition": "the accumulation of knowledge or skill that results from direct participation in events or activities",
+    "category": "General",
+    "imagePath": "assets/images/experience.png",
+    "transcription": "/ɪkˈspɪərɪəns/"
+  },
+  {
+    "word": "expert",
+    "definition": "a person with special knowledge or ability who performs skillfully",
+    "category": "General",
+    "imagePath": "assets/images/expert.png",
+    "transcription": "/ˈɛkspɜːt/"
+  },
+  {
+    "word": "eye",
+    "definition": "the organ of sight",
+    "category": "General",
+    "imagePath": "assets/images/eye.png",
+    "transcription": "/aɪ/"
+  },
+  {
+    "word": "face",
+    "definition": "the front of the human head from the forehead to the chin and ear to ear",
+    "category": "General",
+    "imagePath": "assets/images/face.png",
+    "transcription": "/feɪs/"
+  },
+  {
+    "word": "fact",
+    "definition": "a piece of information about circumstances that exist or events that have occurred",
+    "category": "General",
+    "imagePath": "assets/images/fact.png",
+    "transcription": "/fækt/"
+  },
+  {
+    "word": "fall",
+    "definition": "the season when the leaves fall from the trees",
+    "category": "General",
+    "imagePath": "assets/images/fall.png",
+    "transcription": "/fɔːl/"
+  },
+  {
+    "word": "false",
+    "definition": "not in accordance with the fact or reality or actuality",
+    "category": "General",
+    "imagePath": "assets/images/false.png",
+    "transcription": "/fɔːls/"
+  },
+  {
+    "word": "family",
+    "definition": "a social unit living together",
+    "category": "General",
+    "imagePath": "assets/images/family.png",
+    "transcription": "/ˈfæmɪli/"
+  },
+  {
+    "word": "far",
+    "definition": "a terrorist organization that seeks to overthrow the government dominated by Tutsi and to institute Hutu control again",
+    "category": "General",
+    "imagePath": "assets/images/far.png",
+    "transcription": "/fɑːr/"
+  },
+  {
+    "word": "farm",
+    "definition": "workplace consisting of farm buildings and cultivated land as a unit",
+    "category": "General",
+    "imagePath": "assets/images/farm.png",
+    "transcription": "/fɑːm/"
+  },
+  {
+    "word": "fat",
+    "definition": "a soft greasy substance occurring in organic tissue and consisting of a mixture of lipids (mostly triglycerides)",
+    "category": "General",
+    "imagePath": "assets/images/fat.png",
+    "transcription": "/fæt/"
+  },
+  {
+    "word": "father",
+    "definition": "a male parent (also used as a term of address to your father)",
+    "category": "General",
+    "imagePath": "assets/images/father.png",
+    "transcription": "/ˈfɑːðər/"
+  },
+  {
+    "word": "fear",
+    "definition": "an emotion experienced in anticipation of some specific pain or danger (usually accompanied by a desire to flee or fight)",
+    "category": "General",
+    "imagePath": "assets/images/fear.png",
+    "transcription": "/fɪər/"
+  },
+  {
+    "word": "feather",
+    "definition": "the light horny waterproof structure forming the external covering of birds",
+    "category": "General",
+    "imagePath": "assets/images/feather.png",
+    "transcription": "/ˈfɛðər/"
+  },
+  {
+    "word": "feeble",
+    "definition": "pathetically lacking in force or effectiveness",
+    "category": "General",
+    "transcription": "/ˈfiːbəl/",
+    "imagePath": "assets/images/feeble.png"
+  },
+  {
+    "word": "feeling",
+    "definition": "the experiencing of affective and emotional states",
+    "category": "General",
+    "transcription": "/ˈfiːlɪŋ/",
+    "imagePath": "assets/images/feeling.png"
+  },
+  {
+    "word": "female",
+    "definition": "an animal that produces gametes (ova) that can be fertilized by male gametes (spermatozoa)",
+    "category": "General",
+    "transcription": "/ˈfiːmeɪl/",
+    "imagePath": "assets/images/female.png"
+  },
+  {
+    "word": "fertile",
+    "definition": "capable of reproducing",
+    "category": "General",
+    "transcription": "/ˈfɜːtaɪl/",
+    "imagePath": "assets/images/fertile.png"
+  },
+  {
+    "word": "fiction",
+    "definition": "a literary work based on the imagination and not necessarily on fact",
+    "category": "General",
+    "transcription": "/ˈfɪkʃən/",
+    "imagePath": "assets/images/fiction.png"
+  },
+  {
+    "word": "field",
+    "definition": "a piece of land cleared of trees and usually enclosed",
+    "category": "General",
+    "transcription": "/fiːld/",
+    "imagePath": "assets/images/field.png"
+  },
+  {
+    "word": "fight",
+    "definition": "a hostile meeting of opposing military forces in the course of a war",
+    "category": "General",
+    "transcription": "/faɪt/",
+    "imagePath": "assets/images/fight.png"
+  },
+  {
+    "word": "finger",
+    "definition": "any of the terminal members of the hand (sometimes excepting the thumb)",
+    "category": "General",
+    "transcription": "/ˈfɪŋɡər/",
+    "imagePath": "assets/images/finger.png"
+  },
+  {
+    "word": "fire",
+    "definition": "the event of something burning (often destructive)",
+    "category": "General",
+    "transcription": "/faɪər/",
+    "imagePath": "assets/images/fire.png"
+  },
+  {
+    "word": "first",
+    "definition": "the first or highest in an ordering or series",
+    "category": "General",
+    "transcription": "/fɜːrst/",
+    "imagePath": "assets/images/first.png"
+  },
+  {
+    "word": "fish",
+    "definition": "any of various mostly cold-blooded aquatic vertebrates usually having scales and breathing through gills",
+    "category": "General",
+    "transcription": "/fɪʃ/",
+    "imagePath": "assets/images/fish.png"
+  },
+  {
+    "word": "fixed",
+    "definition": "restore by replacing a part or putting together what is torn or broken",
+    "category": "General",
+    "transcription": "/fɪkst/",
+    "imagePath": "assets/images/fixed.png"
+  },
+  {
+    "word": "flag",
+    "definition": "emblem usually consisting of a rectangular piece of cloth of distinctive design",
+    "category": "General",
+    "transcription": "/flæɡ/",
+    "imagePath": "assets/images/flag.png"
+  },
+  {
+    "word": "flame",
+    "definition": "the process of combustion of inflammable materials producing heat and light and (often) smoke",
+    "category": "General",
+    "transcription": "/fleɪm/",
+    "imagePath": "assets/images/flame.png"
+  },
+  {
+    "word": "flat",
+    "definition": "a level tract of land",
+    "category": "General",
+    "transcription": "/flæt/",
+    "imagePath": "assets/images/flat.png"
+  },
+  {
+    "word": "flight",
+    "definition": "a formation of aircraft in flight",
+    "category": "General",
+    "transcription": "/flaɪt/",
+    "imagePath": "assets/images/flight.png"
+  },
+  {
+    "word": "floor",
+    "definition": "the inside lower horizontal surface (as of a room, hallway, tent, or other structure)",
+    "category": "General",
+    "transcription": "/flɔːr/",
+    "imagePath": "assets/images/floor.png"
+  },
+  {
+    "word": "flower",
+    "definition": "a plant cultivated for its blooms or blossoms",
+    "category": "General",
+    "transcription": "/ˈflaʊər/",
+    "imagePath": "assets/images/flower.png"
+  },
+  {
+    "word": "fly",
+    "definition": "two-winged insects characterized by active flight",
+    "category": "General",
+    "transcription": "/flaɪ/",
+    "imagePath": "assets/images/fly.png"
+  },
+  {
+    "word": "fold",
+    "definition": "an angular or rounded shape made by folding",
+    "category": "General",
+    "transcription": "/foʊld/",
+    "imagePath": "assets/images/fold.png"
+  },
+  {
+    "word": "food",
+    "definition": "any substance that can be metabolized by an animal to give energy and build tissue",
+    "category": "General",
+    "transcription": "/fuːd/",
+    "imagePath": "assets/images/food.png"
+  },
+  {
+    "word": "foolish",
+    "definition": "devoid of good sense or judgment",
+    "category": "General",
+    "transcription": "/ˈfuːlɪʃ/",
+    "imagePath": "assets/images/foolish.png"
+  },
+  {
+    "word": "foot",
+    "definition": "the part of the leg of a human being below the ankle joint",
+    "category": "General",
+    "transcription": "/fʊt/",
+    "imagePath": "assets/images/foot.png"
+  },
+  {
+    "word": "force",
+    "definition": "a powerful effect or influence",
+    "category": "General",
+    "transcription": "/fɔːrs/",
+    "imagePath": "assets/images/force.png"
+  },
+  {
+    "word": "fork",
+    "definition": "cutlery used for serving and eating food",
+    "category": "General",
+    "transcription": "/fɔːrk/",
+    "imagePath": "assets/images/fork.png"
+  },
+  {
+    "word": "form",
+    "definition": "the phonological or orthographic sound or appearance of a word that can be used to describe or identify something",
+    "category": "General",
+    "transcription": "/fɔːrm/",
+    "imagePath": "assets/images/form.png"
+  },
+  {
+    "word": "forward",
+    "definition": "the person who plays the position of forward in certain games, such as basketball, soccer, or hockey",
+    "category": "General",
+    "transcription": "/ˈfɔːwərd/",
+    "imagePath": "assets/images/forward.png"
+  },
+  {
+    "word": "fowl",
+    "definition": "a domesticated gallinaceous bird thought to be descended from the red jungle fowl",
+    "category": "General",
+    "transcription": "/faʊl/",
+    "imagePath": "assets/images/fowl.png"
+  },
+  {
+    "word": "frame",
+    "definition": "the framework for a pair of eyeglasses",
+    "category": "General",
+    "transcription": "/freɪm/",
+    "imagePath": "assets/images/frame.png"
+  },
+  {
+    "word": "free",
+    "definition": "people who are free",
+    "category": "General",
+    "transcription": "/friː/",
+    "imagePath": "assets/images/free.png"
+  },
+  {
+    "word": "frequent",
+    "definition": "do one's shopping at; do business with; be a customer or client of",
+    "category": "General",
+    "transcription": "/ˈfriː.kwənt/",
+    "imagePath": "assets/images/frequent.png"
+  },
+  {
+    "word": "friend",
+    "definition": "a person you know well and regard with affection and trust",
+    "category": "General",
+    "transcription": "/frɛnd/",
+    "imagePath": "assets/images/friend.png"
+  },
+  {
+    "word": "front",
+    "definition": "the side that is forward or prominent",
+    "category": "General",
+    "transcription": "/frʌnt/",
+    "imagePath": "assets/images/front.png"
+  },
+  {
+    "word": "fruit",
+    "definition": "the ripened reproductive body of a seed plant",
+    "category": "General",
+    "transcription": "/fruːt/",
+    "imagePath": "assets/images/fruit.png"
+  },
+  {
+    "word": "full",
+    "definition": "the time when the Moon is fully illuminated",
+    "category": "General",
+    "transcription": "/fʊl/",
+    "imagePath": "assets/images/full.png"
+  },
+  {
+    "word": "future",
+    "definition": "the time yet to come",
+    "category": "General",
+    "transcription": "/ˈfjuː.tʃər/",
+    "imagePath": "assets/images/future.png"
+  },
+  {
+    "word": "garden",
+    "definition": "a plot of ground where plants are cultivated",
+    "category": "General",
+    "transcription": "/ˈɡɑːr.dən/",
+    "imagePath": "assets/images/garden.png"
+  },
+  {
+    "word": "general",
+    "definition": "a general officer of the highest rank",
+    "category": "General",
+    "transcription": "/ˈdʒɛn.ə.rəl/",
+    "imagePath": "assets/images/general.png"
+  },
+  {
+    "word": "get",
+    "definition": "a return on a shot that seemed impossible to reach and would normally have resulted in a point for the opponent",
+    "category": "General",
+    "transcription": "/ɡɛt/",
+    "imagePath": "assets/images/get.png"
+  },
+  {
+    "word": "girl",
+    "definition": "a young woman",
+    "category": "General",
+    "transcription": "/ɡɜːrl/",
+    "imagePath": "assets/images/girl.png"
+  },
+  {
+    "word": "give",
+    "definition": "the elasticity of something that can be stretched and returns to its original length",
+    "category": "General",
+    "transcription": "/ɡɪv/",
+    "imagePath": "assets/images/give.png"
+  },
+  {
+    "word": "glass",
+    "definition": "a brittle transparent solid with irregular atomic structure",
+    "category": "General",
+    "transcription": "/ɡlæs/",
+    "imagePath": "assets/images/glass.png"
+  },
+  {
+    "word": "glove",
+    "definition": "the handwear used by fielders in playing baseball",
+    "category": "General",
+    "transcription": "/ɡlʌv/",
+    "imagePath": "assets/images/glove.png"
+  },
+  {
+    "word": "go",
+    "definition": "a time for working (after which you will be relieved by someone else)",
+    "category": "General",
+    "transcription": "/ɡoʊ/",
+    "imagePath": "assets/images/go.png"
+  },
+  {
+    "word": "goat",
+    "definition": "any of numerous agile ruminants related to sheep but having a beard and straight horns",
+    "category": "General",
+    "transcription": "/ɡoʊt/",
+    "imagePath": "assets/images/goat.png"
+  },
+  {
+    "word": "gold",
+    "definition": "coins made of gold",
+    "category": "General",
+    "transcription": "/ɡoʊld/",
+    "imagePath": "assets/images/gold.png"
+  },
+  {
+    "word": "good",
+    "definition": "benefit",
+    "category": "General",
+    "transcription": "/ɡʊd/",
+    "imagePath": "assets/images/good.png"
+  },
+  {
+    "word": "government",
+    "definition": "the organization that is the governing authority of a political unit",
+    "category": "General",
+    "transcription": "/ˈɡʌv.ərn.mənt/",
+    "imagePath": "assets/images/government.png"
+  },
+  {
+    "word": "grain",
+    "definition": "a relatively small granular particle of a substance",
+    "category": "General",
+    "transcription": "/ɡreɪn/",
+    "imagePath": "assets/images/grain.png"
+  },
+  {
+    "word": "grass",
+    "definition": "narrow-leaved green herbage: grown as lawns; used as pasture for grazing animals; cut and dried as hay",
+    "category": "General",
+    "transcription": "/ɡræs/",
+    "imagePath": "assets/images/grass.png"
+  },
+  {
+    "word": "great",
+    "definition": "a person who has achieved distinction and honor in some field",
+    "category": "General",
+    "transcription": "/ɡreɪt/",
+    "imagePath": "assets/images/great.png"
+  },
+  {
+    "word": "green",
+    "definition": "green color or pigment; resembling the color of growing grass",
+    "category": "General",
+    "transcription": "/ɡriːn/",
+    "imagePath": "assets/images/green.png"
+  },
+  {
+    "word": "grey",
+    "definition": "United States writer of western adventure novels (1875-1939)",
+    "category": "General",
+    "transcription": "/ɡreɪ/",
+    "imagePath": "assets/images/grey.png"
+  },
+  {
+    "word": "grip",
+    "definition": "the act of grasping",
+    "category": "General",
+    "transcription": "/ɡrɪp/",
+    "imagePath": "assets/images/grip.png"
+  },
+  {
+    "word": "group",
+    "definition": "any number of entities (members) considered as a unit",
+    "category": "General",
+    "transcription": "/ɡruːp/",
+    "imagePath": "assets/images/group.png"
+  },
+  {
+    "word": "growth",
+    "definition": "(biology) the process of an individual organism growing organically; a purely biological unfolding of events involved in an organism changing gradually from a simple to a more complex level",
+    "category": "General",
+    "transcription": "/ɡroʊθ/",
+    "imagePath": "assets/images/growth.png"
+  },
+  {
+    "word": "guide",
+    "definition": "someone employed to conduct others",
+    "category": "General",
+    "transcription": "/ɡaɪd/",
+    "imagePath": "assets/images/guide.png"
+  },
+  {
+    "word": "gun",
+    "definition": "a weapon that discharges a missile at high velocity (especially from a metal tube or barrel)",
+    "category": "General",
+    "transcription": "/ɡʌn/",
+    "imagePath": "assets/images/gun.png"
+  },
+  {
+    "word": "hair",
+    "definition": "a covering for the body (or parts of it) consisting of a dense growth of threadlike structures (as on the human head); helps to prevent heat loss",
+    "category": "General",
+    "transcription": "/hɛr/",
+    "imagePath": "assets/images/hair.png"
+  },
+  {
+    "word": "hammer",
+    "definition": "the part of a gunlock that strikes the percussion cap when the trigger is pulled",
+    "category": "General",
+    "transcription": "/ˈhæm.ər/",
+    "imagePath": "assets/images/hammer.png"
+  },
+  {
+    "word": "hand",
+    "definition": "the (prehensile) extremity of the superior limb",
+    "category": "General",
+    "transcription": "/hænd/",
+    "imagePath": "assets/images/hand.png"
+  },
+  {
+    "word": "hanging",
+    "definition": "decoration that is hung (as a tapestry) on a wall or over a window",
+    "category": "General",
+    "transcription": "/ˈhæŋ.ɪŋ/",
+    "imagePath": "assets/images/hanging.png"
+  },
+  {
+    "word": "happy",
+    "definition": "enjoying or showing or marked by joy or pleasure",
+    "category": "General",
+    "transcription": "/ˈhæp.i/",
+    "imagePath": "assets/images/happy.png"
+  },
+  {
+    "word": "harbour",
+    "definition": "a sheltered port where ships can take on or discharge cargo",
+    "category": "General",
+    "transcription": "/ˈhɑːr.bɚ/",
+    "imagePath": "assets/images/harbour.png"
+  },
+  {
+    "word": "hard",
+    "definition": "not easy; requiring great physical or mental effort to accomplish or comprehend or endure",
+    "category": "General",
+    "transcription": "/hɑːrd/",
+    "imagePath": "assets/images/hard.png"
+  },
+  {
+    "word": "harmony",
+    "definition": "compatibility in opinion and action",
+    "category": "General",
+    "transcription": "/ˈhɑːr.mə.ni/",
+    "imagePath": "assets/images/harmony.png"
+  },
+  {
+    "word": "hat",
+    "definition": "headdress that protects the head from bad weather; has shaped crown and usually a brim",
+    "category": "General",
+    "transcription": "/hæt/",
+    "imagePath": "assets/images/hat.png"
+  },
+  {
+    "word": "hate",
+    "definition": "the emotion of intense dislike; a feeling of dislike so strong that it demands action",
+    "category": "General",
+    "transcription": "/heɪt/",
+    "imagePath": "assets/images/hate.png"
+  },
+  {
+    "word": "have",
+    "definition": "a person who possesses great material wealth",
+    "category": "General",
+    "transcription": "/hæv/",
+    "imagePath": "assets/images/have.png"
+  },
+  {
+    "word": "he",
+    "definition": "a very light colorless element that is one of the six inert gasses; the most difficult gas to liquefy; occurs in economically extractable amounts in certain natural gases (as those found in Texas and Kansas)",
+    "category": "General",
+    "transcription": "/hiː/",
+    "imagePath": "assets/images/he.png"
+  },
+  {
+    "word": "head",
+    "definition": "the upper part of the human body or the front part of the body in animals; contains the face and brains",
+    "category": "General",
+    "transcription": "/hɛd/",
+    "imagePath": "assets/images/head.png"
+  },
+  {
+    "word": "healthy",
+    "definition": "having or indicating good health in body or mind; free from infirmity or disease",
+    "category": "General",
+    "transcription": "/ˈhɛl.θi/",
+    "imagePath": "assets/images/healthy.png"
+  },
+  {
+    "word": "hearing",
+    "definition": "(law) a proceeding (usually by a court) where evidence is taken for the purpose of determining an issue of fact and reaching a decision based on that evidence",
+    "category": "General",
+    "transcription": "/ˈhɪər.ɪŋ/",
+    "imagePath": "assets/images/hearing.png"
+  },
+  {
+    "word": "heart",
+    "definition": "the locus of feelings and intuitions",
+    "category": "General",
+    "transcription": "/hɑːrt/",
+    "imagePath": "assets/images/heart.png"
+  },
+  {
+    "word": "heat",
+    "definition": "a form of energy that is transferred by a difference in temperature",
+    "category": "General",
+    "transcription": "/hiːt/",
+    "imagePath": "assets/images/heat.png"
+  },
+  {
+    "word": "help",
+    "definition": "the activity of contributing to the fulfillment of a need or furtherance of an effort or purpose",
+    "category": "General",
+    "transcription": "/hɛlp/",
+    "imagePath": "assets/images/help.png"
+  },
+  {
+    "word": "here",
+    "definition": "the present location; this place",
+    "category": "General",
+    "transcription": "/hɪər/",
+    "imagePath": "assets/images/here.png"
+  },
+  {
+    "word": "high",
+    "definition": "a lofty level or position or degree",
+    "category": "General",
+    "transcription": "/haɪ/",
+    "imagePath": "assets/images/high.png"
+  },
+  {
+    "word": "history",
+    "definition": "the aggregate of past events",
+    "category": "General",
+    "transcription": "/ˈhɪs.tər.i/",
+    "imagePath": "assets/images/history.png"
+  },
+  {
+    "word": "hole",
+    "definition": "an opening into or through something",
+    "category": "General",
+    "transcription": "/hoʊl/",
+    "imagePath": "assets/images/hole.png"
+  },
+  {
+    "word": "hollow",
+    "definition": "a cavity or space in something",
+    "category": "General",
+    "transcription": "/ˈhɑː.loʊ/",
+    "imagePath": "assets/images/hollow.png"
+  },
+  {
+    "word": "hook",
+    "definition": "a catch for locking a door",
+    "category": "General",
+    "transcription": "/hʊk/",
+    "imagePath": "assets/images/hook.png"
+  },
+  {
+    "word": "hope",
+    "definition": "a specific instance of feeling hopeful",
+    "category": "General",
+    "transcription": "/hoʊp/",
+    "imagePath": "assets/images/hope.png"
+  },
+  {
+    "word": "horn",
+    "definition": "a noisemaker (as at parties or games) that makes a loud noise when you blow through it",
+    "category": "General",
+    "transcription": "/hɔːrn/",
+    "imagePath": "assets/images/horn.png"
+  },
+  {
+    "word": "horse",
+    "definition": "solid-hoofed herbivorous quadruped domesticated since prehistoric times",
+    "category": "General",
+    "transcription": "/hɔːrs/",
+    "imagePath": "assets/images/horse.png"
+  },
+  {
+    "word": "hospital",
+    "definition": "a health facility where patients receive treatment",
+    "category": "General",
+    "transcription": "/ˈhɑː.spɪ.təl/",
+    "imagePath": "assets/images/hospital.png"
+  },
+  {
+    "word": "hour",
+    "definition": "a period of time equal to 1/24th of a day",
+    "category": "General",
+    "transcription": "/aʊr/",
+    "imagePath": "assets/images/hour.png"
+  },
+  {
+    "word": "house",
+    "definition": "a dwelling that serves as living quarters for one or more families",
+    "category": "General",
+    "transcription": "/haʊs/",
+    "imagePath": "assets/images/house.png"
+  },
+  {
+    "word": "humour",
+    "definition": "a characteristic (habitual or relatively temporary) state of feeling",
+    "category": "General",
+    "transcription": "/ˈhjuː.mər/",
+    "imagePath": "assets/images/humour.png"
+  },
+  {
+    "word": "ice",
+    "definition": "water frozen in the solid state",
+    "category": "General",
+    "transcription": "/aɪs/",
+    "imagePath": "assets/images/ice.png"
+  },
+  {
+    "word": "idea",
+    "definition": "the content of cognition; the main thing you are thinking about",
+    "category": "General",
+    "transcription": "/aɪˈdiːə/",
+    "imagePath": "assets/images/idea.png"
+  },
+  {
+    "word": "ill",
+    "definition": "an often persistent bodily disorder or disease; a cause for complaining",
+    "category": "General",
+    "transcription": "/ɪl/",
+    "imagePath": "assets/images/ill.png"
+  },
+  {
+    "word": "important",
+    "definition": "of great significance or value",
+    "category": "General",
+    "transcription": "/ɪmˈpɔːr.tənt/",
+    "imagePath": "assets/images/important.png"
+  },
+  {
+    "word": "impulse",
+    "definition": "an instinctive motive",
+    "category": "General",
+    "transcription": "/ˈɪm.pʌls/",
+    "imagePath": "assets/images/impulse.png"
+  },
+  {
+    "word": "in",
+    "definition": "a unit of length equal to one twelfth of a foot",
+    "category": "General",
+    "transcription": "/ɪn/",
+    "imagePath": "assets/images/in.png"
+  },
+  {
+    "word": "increase",
+    "definition": "a quantity that is added",
+    "category": "General",
+    "transcription": "/ˈɪn.kriːs/",
+    "imagePath": "assets/images/increase.png"
+  },
+  {
+    "word": "industry",
+    "definition": "the people or companies engaged in a particular kind of commercial enterprise",
+    "category": "General",
+    "transcription": "/ˈɪn.də.stri/",
+    "imagePath": "assets/images/industry.png"
+  },
+  {
+    "word": "ink",
+    "definition": "a liquid used for printing or writing or drawing",
+    "category": "General",
+    "transcription": "/ɪŋk/",
+    "imagePath": "assets/images/ink.png"
+  },
+  {
+    "word": "insect",
+    "definition": "small air-breathing arthropod",
+    "category": "General",
+    "transcription": "/ˈɪn.sekt/",
+    "imagePath": "assets/images/insect.png"
+  },
+  {
+    "word": "instrument",
+    "definition": "a device that requires skill for proper use",
+    "category": "General",
+    "transcription": "/ˈɪn.strə.mənt/",
+    "imagePath": "assets/images/instrument.png"
+  },
+  {
+    "word": "insurance",
+    "definition": "promise of reimbursement in the case of loss; paid to people or companies so concerned about hazards that they have made prepayments to an insurance company",
+    "category": "General",
+    "transcription": "/ɪnˈʃʊr.əns/",
+    "imagePath": "assets/images/insurance.png"
+  },
+  {
+    "word": "interest",
+    "definition": "a sense of concern with and curiosity about someone or something",
+    "category": "General",
+    "transcription": "/ˈɪn.trəst/",
+    "imagePath": "assets/images/interest.png"
+  },
+  {
+    "word": "invention",
+    "definition": "the creation of something in the mind",
+    "category": "General",
+    "transcription": "/ɪnˈvɛn.ʃən/",
+    "imagePath": "assets/images/invention.png"
+  },
+  {
+    "word": "iron",
+    "definition": "a heavy ductile magnetic metallic element; is silver-white in pure form but readily rusts; used in construction and tools and armament; plays a role in the transport of oxygen by the blood",
+    "category": "General",
+    "transcription": "/ˈaɪərn/",
+    "imagePath": "assets/images/iron.png"
+  },
+  {
+    "word": "island",
+    "definition": "a land mass (smaller than a continent) that is surrounded by water",
+    "category": "General",
+    "transcription": "/ˈaɪ.lənd/",
+    "imagePath": "assets/images/island.png"
+  },
+  {
+    "word": "jelly",
+    "definition": "an edible jelly (sweet or pungent) made with gelatin and used as a dessert or salad base or a coating for foods",
+    "category": "General",
+    "transcription": "/ˈdʒɛl.i/",
+    "imagePath": "assets/images/jelly.png"
+  },
+  {
+    "word": "jewel",
+    "definition": "a precious or semiprecious stone incorporated into a piece of jewelry",
+    "category": "General",
+    "transcription": "/ˈdʒuː.əl/",
+    "imagePath": "assets/images/jewel.png"
+  },
+  {
+    "word": "join",
+    "definition": "the shape or manner in which things come together and a connection is made",
+    "category": "General",
+    "transcription": "/dʒɔɪn/",
+    "imagePath": "assets/images/join.png"
+  },
+  {
+    "word": "journey",
+    "definition": "the act of traveling from one place to another",
+    "category": "General",
+    "transcription": "/ˈdʒɜːr.ni/",
+    "imagePath": "assets/images/journey.png"
+  },
+  {
+    "word": "judge",
+    "definition": "a public official authorized to decide questions brought before a court of justice",
+    "category": "General",
+    "transcription": "/dʒʌdʒ/",
+    "imagePath": "assets/images/judge.png"
+  },
+  {
+    "word": "jump",
+    "definition": "a sudden and decisive increase",
+    "category": "General",
+    "transcription": "/dʒʌmp/",
+    "imagePath": "assets/images/jump.png"
+  },
+  {
+    "word": "keep",
+    "definition": "the financial means whereby one lives",
+    "category": "General",
+    "transcription": "/kiːp/",
+    "imagePath": "assets/images/keep.png"
+  },
+  {
+    "word": "kettle",
+    "definition": "a metal pot for stewing or boiling; usually has a lid",
+    "category": "General",
+    "transcription": "/ˈkɛt.əl/",
+    "imagePath": "assets/images/kettle.png"
+  },
+  {
+    "word": "key",
+    "definition": "metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated",
+    "category": "General",
+    "transcription": "/kiː/",
+    "imagePath": "assets/images/key.png"
+  },
+  {
+    "word": "kick",
+    "definition": "the act of delivering a blow with the foot",
+    "category": "General",
+    "transcription": "/kɪk/",
+    "imagePath": "assets/images/kick.png"
+  },
+  {
+    "word": "kind",
+    "definition": "a category of things distinguished by some common characteristic or quality",
+    "category": "General",
+    "transcription": "/kaɪnd/",
+    "imagePath": "assets/images/kind.png"
+  },
+  {
+    "word": "kiss",
+    "definition": "the act of caressing with the lips (or an instance thereof)",
+    "category": "General",
+    "transcription": "/kɪs/",
+    "imagePath": "assets/images/kiss.png"
+  },
+  {
+    "word": "knee",
+    "definition": "hinge joint in the human leg connecting the tibia and fibula with the femur and protected in front by the patella",
+    "category": "General",
+    "transcription": "/niː/",
+    "imagePath": "assets/images/knee.png"
+  },
+  {
+    "word": "knife",
+    "definition": "edge tool used as a cutting instrument; has a pointed blade with a sharp edge and a handle",
+    "category": "General",
+    "transcription": "/naɪf/",
+    "imagePath": "assets/images/knife.png"
+  },
+  {
+    "word": "knot",
+    "definition": "a tight cluster of people or things",
+    "category": "General",
+    "transcription": "/nɒt/",
+    "imagePath": "assets/images/knot.png"
+  },
+  {
+    "word": "knowledge",
+    "definition": "the psychological result of perception and learning and reasoning",
+    "category": "General",
+    "transcription": "/ˈnɒl.ɪdʒ/",
+    "imagePath": "assets/images/knowledge.png"
+  },
+  {
+    "word": "land",
+    "definition": "the land on which real estate is located",
+    "category": "General",
+    "transcription": "/lænd/",
+    "imagePath": "assets/images/land.png"
+  },
+  {
+    "word": "language",
+    "definition": "a systematic means of communicating by the use of sounds or conventional symbols",
+    "category": "General",
+    "transcription": "/ˈlæŋ.ɡwɪdʒ/",
+    "imagePath": "assets/images/language.png"
+  },
+  {
+    "word": "last",
+    "definition": "the temporal end; the concluding time",
+    "category": "General",
+    "transcription": "/læst/",
+    "imagePath": "assets/images/last.png"
+  },
+  {
+    "word": "late",
+    "definition": "being or occurring at an advanced period of time or after a usual or expected time",
+    "category": "General",
+    "transcription": "/leɪt/",
+    "imagePath": "assets/images/late.png"
+  },
+  {
+    "word": "laugh",
+    "definition": "the sound of laughing",
+    "category": "General",
+    "transcription": "/læf/",
+    "imagePath": "assets/images/laugh.png"
+  },
+  {
+    "word": "law",
+    "definition": "the collection of rules imposed by authority",
+    "category": "General",
+    "transcription": "/lɔː/",
+    "imagePath": "assets/images/law.png"
+  },
+  {
+    "word": "lead",
+    "definition": "an advantage held by a competitor in a race",
+    "category": "General",
+    "transcription": "/liːd/",
+    "imagePath": "assets/images/lead.png"
+  },
+  {
+    "word": "leaf",
+    "definition": "the main organ of photosynthesis and transpiration in higher plants",
+    "category": "General",
+    "transcription": "/liːf/",
+    "imagePath": "assets/images/leaf.png"
+  },
+  {
+    "word": "learning",
+    "definition": "the cognitive process of acquiring skill or knowledge",
+    "category": "General",
+    "transcription": "/ˈlɜːr.nɪŋ/",
+    "imagePath": "assets/images/learning.png"
+  },
+  {
+    "word": "leather",
+    "definition": "an animal skin made smooth and flexible by removing the hair and then tanning",
+    "category": "General",
+    "transcription": "/ˈleð.ər/",
+    "imagePath": "assets/images/leather.png"
+  },
+  {
+    "word": "left",
+    "definition": "location near or direction toward the left side; i.e. the side to the north when a person or object faces east",
+    "category": "General",
+    "transcription": "/lɛft/",
+    "imagePath": "assets/images/left.png"
+  },
+  {
+    "word": "leg",
+    "definition": "a human limb; commonly used to refer to a whole limb but technically only the part of the limb between the knee and ankle",
+    "category": "General",
+    "transcription": "/lɛɡ/",
+    "imagePath": "assets/images/leg.png"
+  },
+  {
+    "word": "let",
+    "definition": "a brutal terrorist group active in Kashmir; fights against India with the goal of restoring Islamic rule of India",
+    "category": "General",
+    "transcription": "/lɛt/",
+    "imagePath": "assets/images/let.png"
+  },
+  {
+    "word": "letter",
+    "definition": "a written message addressed to a person or organization",
+    "category": "General",
+    "transcription": "/ˈlɛt.ər/",
+    "imagePath": "assets/images/letter.png"
+  },
+  {
+    "word": "level",
+    "definition": "a position on a scale of intensity or amount or quality",
+    "category": "General",
+    "transcription": "/ˈlɛv.əl/",
+    "imagePath": "assets/images/level.png"
+  },
+  {
+    "word": "library",
+    "definition": "a room where books are kept",
+    "category": "General",
+    "transcription": "/ˈlaɪ.brɛr.i/",
+    "imagePath": "assets/images/library.png"
+  },
+  {
+    "word": "lift",
+    "definition": "the act of giving temporary assistance",
+    "category": "General",
+    "transcription": "/lɪft/",
+    "imagePath": "assets/images/lift.png"
+  },
+  {
+    "word": "light",
+    "definition": "(physics) electromagnetic radiation that can produce a visual sensation",
+    "category": "General",
+    "transcription": "/laɪt/",
+    "imagePath": "assets/images/light.png"
+  },
+  {
+    "word": "like",
+    "definition": "a similar kind",
+    "category": "General",
+    "transcription": "/laɪk/",
+    "imagePath": "assets/images/like.png"
+  },
+  {
+    "word": "limit",
+    "definition": "the greatest possible degree of something",
+    "category": "General",
+    "transcription": "/ˈlɪm.ɪt/",
+    "imagePath": "assets/images/limit.png"
+  },
+  {
+    "word": "line",
+    "definition": "a formation of people or things one beside another",
+    "category": "General",
+    "transcription": "/laɪn/",
+    "imagePath": "assets/images/line.png"
+  },
+  {
+    "word": "linen",
+    "definition": "a fabric woven with fibers from the flax plant",
+    "category": "General",
+    "transcription": "/ˈlɪn.ən/",
+    "imagePath": "assets/images/linen.png"
+  },
+  {
+    "word": "lip",
+    "definition": "either of two fleshy folds of tissue that surround the mouth and play a role in speaking",
+    "category": "General",
+    "transcription": "/lɪp/",
+    "imagePath": "assets/images/lip.png"
+  },
+  {
+    "word": "liquid",
+    "definition": "a substance that is liquid at room temperature and pressure",
+    "category": "General",
+    "transcription": "/ˈlɪk.wɪd/",
+    "imagePath": "assets/images/liquid.png"
+  },
+  {
+    "word": "list",
+    "definition": "a database containing an ordered array of items (names or topics)",
+    "category": "General",
+    "transcription": "/lɪst/",
+    "imagePath": "assets/images/list.png"
+  }
+]

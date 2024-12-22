@@ -1,36 +1,27 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' as rootBundle;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'category_page.dart';
-import 'models/word.dart'; // Import your Word model if it's in a separate file
+import 'first_course_page.dart';
+import 'fourth_course_page.dart';
+import 'play_page.dart';
+import 'second_course_page.dart';
+import 'third_course_page.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({super.key});
-
   @override
   _HomePageState createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
-  List<Word> words = [];
-  List<Word> filteredWords = [];
-  TextEditingController searchController = TextEditingController();
   TextEditingController userNameController = TextEditingController();
   String userName = 'Guest';
   int _currentIndex = 0;
 
-  Future<void> loadWords() async {
-    final String response =
-        await rootBundle.rootBundle.loadString('assets/wordnet_words.json');
-    final List<dynamic> data = json.decode(response);
-
-    setState(() {
-      words = data.map((wordData) => Word.fromMap(wordData)).toList();
-      filteredWords = [];
-    });
+  @override
+  void initState() {
+    super.initState();
+    loadUserName();
   }
 
   Future<void> loadUserName() async {
@@ -42,234 +33,40 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> saveUserName() async {
     final username = userNameController.text.trim();
+    print("Saving username: $username");
 
-    if (username.isEmpty || username.length <= 3 || username.length > 11) {
+    if (username.isEmpty || username.length <= 3 || username.length > 20) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-            content: Text('Username must be between 4 and 10 characters.')),
+          content: Text('Username must be between 4 and 20 characters.'),
+        ),
       );
       return;
     }
 
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString('username', username);
+    print("Username saved to SharedPreferences");
+
     setState(() {
       userName = username;
+      print("UI updated with username: $userName");
     });
-
-    Navigator.of(context).pop();
-  }
-
-  void searchWords(String query) {
-    setState(() {
-      if (query.isEmpty) {
-        filteredWords = [];
-      } else {
-        filteredWords = words.where((word) {
-          return word.word.toLowerCase().contains(query.toLowerCase());
-        }).toList();
-      }
-    });
-  }
-
-  Future<void> saveWordToCategory(Word word) async {
-    final prefs = await SharedPreferences.getInstance();
-    List<String> savedWords = prefs.getStringList('saved_words') ?? [];
-
-    // Create a JSON object for the word details
-    final wordJson = json.encode({
-      'word': word.word,
-      'transcription': word.transcription,
-      'definition': word.definition,
-    });
-
-    if (!savedWords.contains(wordJson)) {
-      savedWords.add(wordJson); // Add the word JSON to the list
-      await prefs.setStringList('saved_words', savedWords);
-
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('${word.word} added to categories!')),
-      );
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('${word.word} is already saved!')),
-      );
-    }
-  }
-
-
-  @override
-  void initState() {
-    super.initState();
-    loadWords();
-    loadUserName();
-    searchController.addListener(() {
-      searchWords(searchController.text);
-    });
-  }
-
-  @override
-  void dispose() {
-    searchController.dispose();
-    userNameController.dispose();
-    super.dispose();
   }
 
   void onTabTapped(int index) {
     if (index == 1) {
-      Navigator.pushReplacement(
+      Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => CategoryPage()),
       );
+    } else if (index == 2) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => PlayPage()),
+      );
     }
   }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const SizedBox(height: 20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  'Hi, $userName! 👋',
-                  style: const TextStyle(
-                      fontSize: 24, fontWeight: FontWeight.bold),
-                ),
-                IconButton(
-                  icon: Icon(Icons.edit),
-                  onPressed: showEditUserNameDialog,
-                ),
-              ],
-            ),
-            const SizedBox(height: 30),
-            Text(
-              'Vocabulary',
-              style: const TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(height: 5),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 0),
-              child: Container(
-                height: 55,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(30),
-                  border: Border.all(width: 1, color: Colors.grey.shade200),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 10),
-                  child: Row(
-                    children: [
-                      Container(
-                        width: 38,
-                        height: 38,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFFFBFC5),
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        child: const Icon(Icons.search, color: Colors.white),
-                      ),
-                      const SizedBox(width: 10),
-                      Expanded(
-                        child: TextField(
-                          controller: searchController,
-                          decoration: const InputDecoration(
-                            label: Text('Search for a word',
-                                style: TextStyle(color: Colors.grey)),
-                            border: InputBorder.none,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-            if (filteredWords.isNotEmpty)
-              Expanded(
-                child: ListView.builder(
-                  itemCount: filteredWords.length,
-                  itemBuilder: (context, index) {
-                    Word word = filteredWords[index];
-                    return ListTile(
-                      title: Text(word.word),
-                      onTap: () {
-                        showWordDetails(word); // Open details when tapped
-                      },
-                    );
-                  },
-                ),
-              ),
-
-          ],
-        ),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex,
-        onTap: onTabTapped,
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: Colors.black, size: 30),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.category, color: Colors.black),
-            label: 'Category',
-          ),
-        ],
-      ),
-    );
-  }
-
-  void showWordDetails(Word word) {
-    showModalBottomSheet(
-      context: context,
-      builder: (BuildContext context) {
-        return Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                word.word,
-                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-              ),
-              SizedBox(height: 10),
-              Text(
-                word.transcription,
-                style: TextStyle(fontSize: 18, color: Colors.grey),
-              ),
-              SizedBox(height: 20),
-              Text(
-                word.definition,
-                style: TextStyle(fontSize: 18),
-              ),
-              SizedBox(height: 20),
-              ElevatedButton.icon(
-                onPressed: () {
-                  saveWordToCategory(word);
-                  Navigator.pop(context); // Close the modal after saving
-                },
-                icon: Icon(Icons.thumb_up, color: Colors.black),
-                label: Text('Learn this word', style: TextStyle(color: Colors.black)),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFFFFBFC5),
-                ),
-              ),
-            ],
-          ),
-        );
-      },
-    );
-  }
-
 
   void showEditUserNameDialog() {
     userNameController.text = userName;
@@ -294,6 +91,215 @@ class _HomePageState extends State<HomePage> {
           ],
         );
       },
+    );
+  }
+
+  Widget _buildCourseCard({
+    required String title,
+    required String level,
+    required String imagePath,
+    required VoidCallback onTap,
+  }) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Container(
+          height: 150,
+          decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withOpacity(0.1),
+                spreadRadius: 1,
+                blurRadius: 10,
+                offset: Offset(5, 5),
+              ),
+            ],
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Row(
+            children: [
+              DecoratedBox(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  image: DecorationImage(
+                      image: AssetImage(imagePath), fit: BoxFit.cover),
+                ),
+                child: SizedBox(width: 150, height: 150),
+              ),
+              SizedBox(width: 30),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    title,
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.grey,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 1,
+                  ),
+                  Text(
+                    level,
+                    style: TextStyle(
+                      fontSize: 23,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF033495),
+                    ),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.grey[100],
+      body: SafeArea(
+        child: SingleChildScrollView(
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          'Welcome Back,',
+                          style: TextStyle(
+                            fontSize: 18,
+                            color: Colors.black54,
+                          ),
+                        ),
+                        Text(
+                          userName,
+                          style: TextStyle(
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold,
+                            color: Color(0xFF033495),
+                          ),
+                        ),
+                      ],
+                    ),
+                    IconButton(
+                      icon: Icon(
+                        Icons.edit,
+                        color: Color(0xFF033495),
+                      ),
+                      onPressed: showEditUserNameDialog,
+                    ),
+                  ],
+                ),
+                SizedBox(height: 30),
+                Text(
+                  'Courses',
+                  style: TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
+                  ),
+                ),
+                SizedBox(height: 10),
+                Column(
+                  children: [
+                    _buildCourseCard(
+                      title: '1st Course',
+                      level: 'Elementary level',
+                      imagePath: 'assets/images/Elementary-English.png',
+                      onTap: () async {
+                        final result = await Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => FirstCoursePage(),
+                          ),
+                        );
+                        print(
+                            "Returned from FirstCoursePage with result: $result");
+                      },
+                    ),
+                    _buildCourseCard(
+                      title: '2nd Course',
+                      level: 'Intermediate level',
+                      imagePath: 'assets/images/intermediate.png',
+                      onTap: () async {
+                        final result = await Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => SecondCoursePage(),
+                          ),
+                        );
+                        print(
+                            "Returned from SecondCoursePage with result: $result");
+                      },
+                    ),
+                    _buildCourseCard(
+                      title: '3rd Course',
+                      level: 'Upper Intermediate level',
+                      imagePath: 'assets/images/upper-intermediate.png',
+                      onTap: () async {
+                        final result = await Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ThirdCoursePage(),
+                          ),
+                        );
+                        print(
+                            "Returned from ThirdCoursePage with result: $result");
+                      },
+                    ),
+                    _buildCourseCard(
+                      title: '4th Course',
+                      level: 'Advanced level',
+                      imagePath: 'assets/images/advanced.png',
+                      onTap: () async {
+                        final result = await Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => FourthCoursePage(),
+                          ),
+                        );
+                        print(
+                            "Returned from FourthCoursePage with result: $result");
+                      },
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _currentIndex,
+        onTap: onTabTapped,
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.book),
+            label: 'Words',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.play_arrow),
+            label: 'Play',
+          ),
+        ],
+      ),
     );
   }
 }

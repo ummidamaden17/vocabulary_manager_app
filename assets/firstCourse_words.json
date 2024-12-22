@@ -1,0 +1,1400 @@
+[
+  {
+    "word": "a",
+    "definition": "a metric unit of length equal to one ten billionth of a meter (or 0.0001 micron); used to specify wavelengths of electromagnetic radiation",
+    "category": "General",
+    "transcription": "/eɪ/",
+    "imagepath": "path/to/image/a.jpg"
+  },
+  {
+    "word": "able",
+    "definition": "(usually followed by `to') having the necessary means or skill or know-how or authority to do something",
+    "category": "General",
+    "transcription": "/ˈeɪbəl/",
+    "imagepath": "path/to/image/able.jpg"
+  },
+  {
+    "word": "about",
+    "definition": "on the move",
+    "category": "General",
+    "transcription": "/əˈbaʊt/",
+    "imagepath": "path/to/image/about.jpg"
+  },
+  {
+    "word": "account",
+    "definition": "a record or narrative description of past events",
+    "category": "General",
+    "transcription": "/əˈkaʊnt/",
+    "imagepath": "path/to/image/account.jpg"
+  },
+  {
+    "word": "acid",
+    "definition": "any of various water-soluble compounds having a sour taste and capable of turning litmus red and reacting with a base to form a salt",
+    "category": "General",
+    "transcription": "/ˈæsɪd/",
+    "imagepath": "path/to/image/acid.jpg"
+  },
+  {
+    "word": "across",
+    "definition": "to the opposite side",
+    "category": "General",
+    "transcription": "/əˈkrɒs/",
+    "imagepath": "path/to/image/across.jpg"
+  },
+  {
+    "word": "act",
+    "definition": "a legal document codifying the result of deliberations of a committee or society or legislative body",
+    "category": "General",
+    "transcription": "/ækt/",
+    "imagepath": "path/to/image/act.jpg"
+  },
+  {
+    "word": "addition",
+    "definition": "a component that is added to something to improve it",
+    "category": "General",
+    "transcription": "/əˈdɪʃən/",
+    "imagepath": "path/to/image/addition.jpg"
+  },
+  {
+    "word": "adjustment",
+    "definition": "making or becoming suitable; adjusting to circumstances",
+    "category": "General",
+    "transcription": "/əˈdʒʌstmənt/",
+    "imagepath": "path/to/image/adjustment.jpg"
+  },
+  {
+    "word": "advertisement",
+    "definition": "a public promotion of some product or service",
+    "category": "General",
+    "transcription": "/ədˈvɜːtɪzmənt/",
+    "imagepath": "path/to/image/advertisement.jpg"
+  },
+  {
+    "word": "after",
+    "definition": "located farther aft",
+    "category": "General",
+    "transcription": "/ˈɑːftər/",
+    "imagepath": "path/to/image/after.jpg"
+  },
+  {
+    "word": "again",
+    "definition": "anew",
+    "category": "General",
+    "transcription": "/əˈɡɛn/",
+    "imagepath": "path/to/image/again.jpg"
+  },
+  {
+    "word": "agreement",
+    "definition": "the statement (oral or written) of an exchange of promises",
+    "category": "General",
+    "transcription": "/əˈɡriːmənt/",
+    "imagepath": "path/to/image/agreement.jpg"
+  },
+  {
+    "word": "air",
+    "definition": "a mixture of gases (especially oxygen) required for breathing; the stuff that the wind consists of",
+    "category": "General",
+    "transcription": "/ɛə/",
+    "imagepath": "path/to/image/air.jpg"
+  },
+  {
+    "word": "all",
+    "definition": "quantifier; used with either mass or count nouns to indicate the whole number or amount of or every one of a class",
+    "category": "General",
+    "transcription": "/ɔːl/",
+    "imagepath": "path/to/image/all.jpg"
+  },
+  {
+    "word": "almost",
+    "definition": "(of actions or states) slightly short of or not quite accomplished; all but",
+    "category": "General",
+    "transcription": "/ˈɔːlməʊst/",
+    "imagepath": "path/to/image/almost.jpg"
+  },
+  {
+    "word": "amount",
+    "definition": "a quantity of money",
+    "category": "General",
+    "transcription": "/əˈmaʊnt/",
+    "imagepath": "path/to/image/amount.jpg"
+  },
+  {
+    "word": "amusement",
+    "definition": "a feeling of delight at being entertained",
+    "category": "General",
+    "transcription": "/əˈmjuːzmənt/",
+    "imagepath": "path/to/image/amusement.jpg"
+  },
+  {
+    "word": "angle",
+    "definition": "the space between two lines or planes that intersect; the inclination of one line to another; measured in degrees or radians",
+    "category": "General",
+    "transcription": "/ˈæŋɡl/",
+    "imagepath": "path/to/image/angle.jpg"
+  },
+  {
+    "word": "angry",
+    "definition": "feeling or showing anger",
+    "category": "General",
+    "transcription": "/ˈæŋɡri/",
+    "imagepath": "path/to/image/angry.jpg"
+  },
+  {
+    "word": "animal",
+    "definition": "a living organism characterized by voluntary movement",
+    "category": "General",
+    "transcription": "/ˈænɪməl/",
+    "imagepath": "path/to/image/animal.jpg"
+  },
+  {
+    "word": "answer",
+    "definition": "a statement (either spoken or written) that is made to reply to a question or request or criticism or accusation",
+    "category": "General",
+    "transcription": "/ˈænsər/",
+    "imagepath": "path/to/image/answer.jpg"
+  },
+  {
+    "word": "ant",
+    "definition": "social insect living in organized colonies; characteristically the males and fertile queen have wings during breeding season; wingless sterile females are the workers",
+    "category": "General",
+    "transcription": "/ænt/",
+    "imagepath": "path/to/image/ant.jpg"
+  },
+  {
+    "word": "any",
+    "definition": "one or some or every or all without specification",
+    "category": "General",
+    "transcription": "/ˈɛni/",
+    "imagepath": "path/to/image/any.jpg"
+  },
+  {
+    "word": "apparatus",
+    "definition": "equipment designed to serve a specific function",
+    "category": "General",
+    "transcription": "/ˌæpəˈreɪtəs/",
+    "imagepath": "path/to/image/apparatus.jpg"
+  },
+  {
+    "word": "apple",
+    "definition": "fruit with red or yellow or green skin and sweet to tart crisp whitish flesh",
+    "category": "General",
+    "transcription": "/ˈæpl/",
+    "imagepath": "path/to/image/apple.jpg"
+  },
+  {
+    "word": "approval",
+    "definition": "the formal act of approving",
+    "category": "General",
+    "transcription": "/əˈpruːvəl/",
+    "imagepath": "path/to/image/approval.jpg"
+  },
+  {
+    "word": "arch",
+    "definition": "a curved shape in the vertical plane that spans an opening",
+    "category": "General",
+    "transcription": "/ɑːrtʃ/",
+    "imagepath": "path/to/image/arch.jpg"
+  },
+  {
+    "word": "argument",
+    "definition": "a fact or assertion offered as evidence that something is true",
+    "category": "First Course",
+    "transcription": "/ˈɑːɡjʊmənt/",
+    "imagepath": "path/to/image/argument.jpg"
+  },
+  {
+    "word": "arm",
+    "definition": "a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb",
+    "category": "First Course",
+    "transcription": "/ɑːrm/",
+    "imagepath": "path/to/image/arm.jpg"
+  },
+  {
+    "word": "army",
+    "definition": "a permanent organization of the military land forces of a nation or state",
+    "category": "First Course",
+    "transcription": "/ˈɑːrmi/",
+    "imagepath": "path/to/image/army.jpg"
+  },
+  {
+    "word": "art",
+    "definition": "the products of human creativity; works of art collectively",
+    "category": "First Course",
+    "transcription": "/ɑːrt/",
+    "imagepath": "path/to/image/art.jpg"
+  },
+  {
+    "word": "as",
+    "definition": "a very poisonous metallic element that has three allotropic forms; arsenic and arsenic compounds are used as herbicides and insecticides and various alloys; found in arsenopyrite and orpiment and realgar",
+    "category": "First Course",
+    "transcription": "/æz/",
+    "imagepath": "path/to/image/as.jpg"
+  },
+  {
+    "word": "at",
+    "definition": "a highly unstable radioactive element (the heaviest of the halogen series); a decay product of uranium and thorium",
+    "category": "First Course",
+    "transcription": "/æt/",
+    "imagepath": "path/to/image/at.jpg"
+  },
+  {
+    "word": "attack",
+    "definition": "(military) an offensive against an enemy (using weapons)",
+    "category": "First Course",
+    "transcription": "/əˈtæk/",
+    "imagepath": "path/to/image/attack.jpg"
+  },
+  {
+    "word": "attempt",
+    "definition": "earnest and conscientious activity intended to do or accomplish something",
+    "category": "First Course",
+    "transcription": "/əˈtɛmpt/",
+    "imagepath": "path/to/image/attempt.jpg"
+  },
+  {
+    "word": "attention",
+    "definition": "the process whereby a person concentrates on some features of the environment to the (relative) exclusion of others",
+    "category": "First Course",
+    "transcription": "/əˈtɛnʃən/",
+    "imagepath": "path/to/image/attention.jpg"
+  },
+  {
+    "word": "attraction",
+    "definition": "the force by which one object attracts another",
+    "category": "First Course",
+    "transcription": "/əˈtrækʃən/",
+    "imagepath": "path/to/image/attraction.jpg"
+  },
+  {
+    "word": "authority",
+    "definition": "the power or right to give orders or make decisions",
+    "category": "First Course",
+    "transcription": "/ɔːˈθɒrɪti/",
+    "imagepath": "path/to/image/authority.jpg"
+  },
+  {
+    "word": "automatic",
+    "definition": "light machine gun",
+    "category": "First Course",
+    "transcription": "/ˌɔːtəˈmætɪk/",
+    "imagepath": "path/to/image/automatic.jpg"
+  },
+  {
+    "word": "awake",
+    "definition": "stop sleeping",
+    "category": "First Course",
+    "transcription": "/əˈweɪk/",
+    "imagepath": "path/to/image/awake.jpg"
+  },
+  {
+    "word": "baby",
+    "definition": "a very young child (birth to 1 year) who has not yet begun to walk or talk",
+    "category": "First Course",
+    "transcription": "/ˈbeɪbi/",
+    "imagepath": "path/to/image/baby.jpg"
+  },
+  {
+    "word": "back",
+    "definition": "the posterior part of a human (or animal) body from the neck to the end of the spine",
+    "category": "First Course",
+    "transcription": "/bæk/",
+    "imagepath": "path/to/image/back.jpg"
+  },
+  {
+    "word": "bad",
+    "definition": "that which is below standard or expectations as of ethics or decency",
+    "category": "First Course",
+    "transcription": "/bæd/",
+    "imagepath": "path/to/image/bad.jpg"
+  },
+  {
+    "word": "bag",
+    "definition": "a flexible container with a single opening",
+    "category": "First Course",
+    "transcription": "/bæɡ/",
+    "imagepath": "path/to/image/bag.jpg"
+  },
+  {
+    "word": "balance",
+    "definition": "a state of equilibrium",
+    "category": "First Course",
+    "transcription": "/ˈbæləns/",
+    "imagepath": "path/to/image/balance.jpg"
+  },
+  {
+    "word": "ball",
+    "definition": "round object that is hit or thrown or kicked in games",
+    "category": "First Course",
+    "transcription": "/bɔːl/",
+    "imagepath": "path/to/image/ball.jpg"
+  },
+  {
+    "word": "band",
+    "definition": "an unofficial association of people or groups",
+    "category": "First Course",
+    "transcription": "/bænd/",
+    "imagepath": "path/to/image/band.jpg"
+  },
+  {
+    "word": "base",
+    "definition": "installation from which a military force initiates operations",
+    "category": "First Course",
+    "transcription": "/beɪs/",
+    "imagepath": "path/to/image/base.jpg"
+  },
+  {
+    "word": "basin",
+    "definition": "a bowl-shaped vessel; usually used for holding food or liquids",
+    "category": "First Course",
+    "transcription": "/ˈbeɪsɪn/",
+    "imagepath": "path/to/image/basin.jpg"
+  },
+  {
+    "word": "basket",
+    "definition": "a container that is usually woven and has handles",
+    "category": "First Course",
+    "transcription": "/ˈbæskɪt/",
+    "imagepath": "path/to/image/basket.jpg"
+  },
+  {
+    "word": "bath",
+    "definition": "a vessel containing liquid in which something is immersed (as to process it or to maintain it at a constant temperature or to lubricate it)",
+    "category": "First Course",
+    "transcription": "/bæθ/",
+    "imagepath": "path/to/image/bath.jpg"
+  },
+  {
+    "word": "be",
+    "definition": "a light strong brittle grey toxic bivalent metallic element",
+    "category": "First Course",
+    "transcription": "/biː/",
+    "imagepath": "path/to/image/be.jpg"
+  },
+  {
+    "word": "beautiful",
+    "definition": "delighting the senses or exciting intellectual or emotional admiration",
+    "category": "First Course",
+    "transcription": "/ˈbjuːtɪfəl/",
+    "imagepath": "path/to/image/beautiful.jpg"
+  },
+  {
+    "word": "bed",
+    "definition": "a piece of furniture that provides a place to sleep",
+    "category": "First Course",
+    "transcription": "/bɛd/",
+    "imagepath": "path/to/image/bed.jpg"
+  },
+  {
+    "word": "bee",
+    "definition": "any of numerous hairy-bodied insects including social and solitary species",
+    "category": "First Course",
+    "transcription": "/biː/",
+    "imagepath": "path/to/image/bee.jpg"
+  },
+  {
+    "word": "before",
+    "definition": "earlier in time; previously",
+    "category": "First Course",
+    "transcription": "/bɪˈfɔːr/",
+    "imagepath": "path/to/image/before.jpg"
+  },
+  {
+    "word": "behaviour",
+    "definition": "the action or reaction of something (as a machine or substance) under specified circumstances",
+    "category": "Second Course",
+    "transcription": "/bɪˈheɪvjər/",
+    "imagepath": "path/to/image/behaviour.jpg"
+  },
+  {
+    "word": "belief",
+    "definition": "any cognitive content held as true",
+    "category": "Second Course",
+    "transcription": "/bɪˈliːf/",
+    "imagepath": "path/to/image/belief.jpg"
+  },
+  {
+    "word": "bell",
+    "definition": "a hollow device made of metal that makes a ringing sound when struck",
+    "category": "Second Course",
+    "transcription": "/bɛl/",
+    "imagepath": "path/to/image/bell.jpg"
+  },
+  {
+    "word": "bent",
+    "definition": "a relatively permanent inclination to react in a particular way",
+    "category": "Second Course",
+    "transcription": "/bɛnt/",
+    "imagepath": "path/to/image/bent.jpg"
+  },
+  {
+    "word": "berry",
+    "definition": "any of numerous small and pulpy edible fruits; used as desserts or in making jams and jellies and preserves",
+    "category": "Second Course",
+    "transcription": "/ˈbɛri/",
+    "imagepath": "path/to/image/berry.jpg"
+  },
+  {
+    "word": "between",
+    "definition": "in the interval",
+    "category": "Second Course",
+    "transcription": "/bɪˈtwiːn/",
+    "imagepath": "path/to/image/between.jpg"
+  },
+  {
+    "word": "bird",
+    "definition": "warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings",
+    "category": "Second Course",
+    "transcription": "/bɜːrd/",
+    "imagepath": "path/to/image/bird.jpg"
+  },
+  {
+    "word": "birth",
+    "definition": "the time when something begins (especially life)",
+    "category": "Second Course",
+    "transcription": "/bɜːrθ/",
+    "imagepath": "path/to/image/birth.jpg"
+  },
+  {
+    "word": "bit",
+    "definition": "a small piece or quantity of something",
+    "category": "Second Course",
+    "transcription": "/bɪt/",
+    "imagepath": "path/to/image/bit.jpg"
+  },
+  {
+    "word": "bite",
+    "definition": "a wound resulting from biting by an animal or a person",
+    "category": "Second Course",
+    "transcription": "/baɪt/",
+    "imagepath": "path/to/image/bite.jpg"
+  },
+  {
+    "word": "bitter",
+    "definition": "English term for a dry sharp-tasting ale with strong flavor of hops (usually on draft)",
+    "category": "Second Course",
+    "transcription": "/ˈbɪtər/",
+    "imagepath": "path/to/image/bitter.jpg"
+  },
+  {
+    "word": "black",
+    "definition": "the quality or state of the achromatic color of least lightness (bearing the least resemblance to white)",
+    "category": "Second Course",
+    "transcription": "/blæk/",
+    "imagepath": "path/to/image/black.jpg"
+  },
+  {
+    "word": "blade",
+    "definition": "especially a leaf of grass or the broad portion of a leaf as distinct from the petiole",
+    "category": "Second Course",
+    "transcription": "/bleɪd/",
+    "imagepath": "path/to/image/blade.jpg"
+  },
+  {
+    "word": "blood",
+    "definition": "the fluid (red in vertebrates) that is pumped through the body by the heart and contains plasma, blood cells, and platelets",
+    "category": "Second Course",
+    "transcription": "/blʌd/",
+    "imagepath": "path/to/image/blood.jpg"
+  },
+  {
+    "word": "blow",
+    "definition": "a powerful stroke with the fist or a weapon",
+    "category": "Second Course",
+    "transcription": "/bloʊ/",
+    "imagepath": "path/to/image/blow.jpg"
+  },
+  {
+    "word": "blue",
+    "definition": "blue color or pigment; resembling the color of the clear sky in the daytime",
+    "category": "Second Course",
+    "transcription": "/bluː/",
+    "imagepath": "path/to/image/blue.jpg"
+  },
+  {
+    "word": "board",
+    "definition": "a committee having supervisory powers",
+    "category": "Second Course",
+    "transcription": "/bɔːrd/",
+    "imagepath": "path/to/image/board.jpg"
+  },
+  {
+    "word": "boat",
+    "definition": "a small vessel for travel on water",
+    "category": "Second Course",
+    "transcription": "/boʊt/",
+    "imagepath": "path/to/image/boat.jpg"
+  },
+  {
+    "word": "body",
+    "definition": "the entire structure of an organism (an animal, plant, or human being)",
+    "category": "Second Course",
+    "transcription": "/ˈbɒdi/",
+    "imagepath": "path/to/image/body.jpg"
+  },
+  {
+    "word": "boiling",
+    "definition": "the application of heat to change something from a liquid to a gas",
+    "category": "Second Course",
+    "transcription": "/ˈbɔɪlɪŋ/",
+    "imagepath": "path/to/image/boiling.jpg"
+  },
+  {
+    "word": "bone",
+    "definition": "rigid connective tissue that makes up the skeleton of vertebrates",
+    "category": "Second Course",
+    "transcription": "/boʊn/",
+    "imagepath": "path/to/image/bone.jpg"
+  },
+  {
+    "word": "book",
+    "definition": "a written work or composition that has been published (printed on pages bound together)",
+    "category": "Second Course",
+    "transcription": "/bʊk/",
+    "imagepath": "path/to/image/book.jpg"
+  },
+  {
+    "word": "boot",
+    "definition": "footwear that covers the whole foot and lower leg",
+    "category": "Second Course",
+    "transcription": "/buːt/",
+    "imagepath": "path/to/image/boot.jpg"
+  },
+  {
+    "word": "bottle",
+    "definition": "a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped",
+    "category": "Second Course",
+    "transcription": "/ˈbɒtl/",
+    "imagepath": "path/to/image/bottle.jpg"
+  },
+  {
+    "word": "box",
+    "definition": "a (usually rectangular) container; may have a lid",
+    "category": "Second Course",
+    "transcription": "/bɒks/",
+    "imagepath": "path/to/image/box.jpg"
+  },
+  {
+    "word": "boy",
+    "definition": "a youthful male person",
+    "category": "Second Course",
+    "transcription": "/bɔɪ/",
+    "imagepath": "path/to/image/boy.jpg"
+  },
+  {
+    "word": "brain",
+    "definition": "that part of the central nervous system that includes all the higher nervous centers; enclosed within the skull; continuous with the spinal cord",
+    "category": "Second Course",
+    "transcription": "/breɪn/",
+    "imagepath": "path/to/image/brain.jpg"
+  },
+  {
+    "word": "brake",
+    "definition": "a restraint used to slow or stop a vehicle",
+    "category": "Second Course",
+    "transcription": "/breɪk/",
+    "imagepath": "path/to/image/brake.jpg"
+  },
+  {
+    "word": "branch",
+    "definition": "a division of some larger or more complex organization",
+    "category": "Second Course",
+    "transcription": "/bræntʃ/",
+    "imagepath": "path/to/image/branch.jpg"
+  },
+  {
+    "word": "brass",
+    "definition": "an alloy of copper and zinc",
+    "category": "Second Course",
+    "transcription": "/bræs/",
+    "imagepath": "path/to/image/brass.jpg"
+  },
+  {
+    "word": "bread",
+    "definition": "food made from dough of flour or meal and usually raised with yeast or baking powder and then baked",
+    "category": "Second Course",
+    "transcription": "/brɛd/",
+    "imagepath": "path/to/image/bread.jpg"
+  },
+  {
+    "word": "breath",
+    "definition": "the process of taking in and expelling air during breathing",
+    "category": "Second Course",
+    "transcription": "/brɛθ/",
+    "imagepath": "path/to/image/breath.jpg"
+  },
+  {
+    "word": "brick",
+    "definition": "rectangular block of clay baked by the sun or in a kiln; used as a building or paving material",
+    "category": "Second Course",
+    "transcription": "/brɪk/",
+    "imagepath": "path/to/image/brick.jpg"
+  },
+  {
+    "word": "bridge",
+    "definition": "a structure that allows people or vehicles to cross an obstacle such as a river or canal or railway etc.",
+    "category": "Second Course",
+    "transcription": "/brɪdʒ/",
+    "imagepath": "path/to/image/bridge.jpg"
+  },
+  {
+    "word": "bright",
+    "definition": "emitting or reflecting light readily or in large amounts",
+    "category": "Second Course",
+    "transcription": "/braɪt/",
+    "imagepath": "path/to/image/bright.jpg"
+  },
+  {
+    "word": "broken",
+    "definition": "terminate",
+    "category": "Second Course",
+    "transcription": "/ˈbroʊkən/",
+    "imagepath": "path/to/image/broken.jpg"
+  },
+  {
+    "word": "brother",
+    "definition": "a male with the same parents as someone else",
+    "category": "Second Course",
+    "transcription": "/ˈbrʌðər/",
+    "imagepath": "path/to/image/brother.jpg"
+  },
+  {
+    "word": "brown",
+    "definition": "an orange of low brightness and saturation",
+    "category": "Second Course",
+    "transcription": "/braʊn/",
+    "imagepath": "path/to/image/brown.jpg"
+  },
+  {
+    "word": "brush",
+    "definition": "a dense growth of bushes",
+    "category": "Second Course",
+    "transcription": "/brʌʃ/",
+    "imagepath": "path/to/image/brush.jpg"
+  },
+  {
+    "word": "bucket",
+    "definition": "a roughly cylindrical vessel that is open at the top",
+    "category": "Second Course",
+    "transcription": "/ˈbʌkɪt/",
+    "imagepath": "path/to/image/bucket.jpg"
+  },
+  {
+    "word": "building",
+    "definition": "a structure that has a roof and walls and stands more or less permanently in one place",
+    "category": "Second Course",
+    "transcription": "/ˈbɪldɪŋ/",
+    "imagepath": "path/to/image/building.jpg"
+  },{
+  "word": "bulb",
+  "definition": "a modified bud consisting of a thickened globular underground stem serving as a reproductive structure",
+  "category": "Third Course",
+  "transcription": "/bʌlb/",
+  "imagepath": "path/to/image/bulb.jpg"
+},
+  {
+    "word": "burn",
+    "definition": "pain that feels hot as if it were on fire",
+    "category": "Third Course",
+    "transcription": "/bɜːrn/",
+    "imagepath": "path/to/image/burn.jpg"
+  },
+  {
+    "word": "burst",
+    "definition": "the act of exploding or bursting",
+    "category": "Third Course",
+    "transcription": "/bɜːrst/",
+    "imagepath": "path/to/image/burst.jpg"
+  },
+  {
+    "word": "business",
+    "definition": "a commercial or industrial enterprise and the people who constitute it",
+    "category": "Third Course",
+    "transcription": "/ˈbɪznɪs/",
+    "imagepath": "path/to/image/business.jpg"
+  },
+  {
+    "word": "but",
+    "definition": "and nothing more",
+    "category": "Third Course",
+    "transcription": "/bʌt/",
+    "imagepath": "path/to/image/but.jpg"
+  },
+  {
+    "word": "butter",
+    "definition": "an edible emulsion of fat globules made by churning milk or cream; for cooking and table use",
+    "category": "Third Course",
+    "transcription": "/ˈbʌtər/",
+    "imagepath": "path/to/image/butter.jpg"
+  },
+  {
+    "word": "button",
+    "definition": "a round fastener sewn to shirts and coats etc to fit through buttonholes",
+    "category": "Third Course",
+    "transcription": "/ˈbʌtən/",
+    "imagepath": "path/to/image/button.jpg"
+  },
+  {
+    "word": "by",
+    "definition": "so as to pass a given point",
+    "category": "Third Course",
+    "transcription": "/baɪ/",
+    "imagepath": "path/to/image/by.jpg"
+  },
+  {
+    "word": "cake",
+    "definition": "a block of solid substance (such as soap or wax)",
+    "category": "Third Course",
+    "transcription": "/keɪk/",
+    "imagepath": "path/to/image/cake.jpg"
+  },
+  {
+    "word": "camera",
+    "definition": "equipment for taking photographs (usually consisting of a lightproof box with a lens at one end and light-sensitive film at the other)",
+    "category": "Third Course",
+    "transcription": "/ˈkæmərə/",
+    "imagepath": "path/to/image/camera.jpg"
+  },
+  {
+    "word": "canvas",
+    "definition": "a heavy, closely woven fabric (used for clothing or chairs or sails or tents)",
+    "category": "Third Course",
+    "transcription": "/ˈkænvəs/",
+    "imagepath": "path/to/image/canvas.jpg"
+  },
+  {
+    "word": "card",
+    "definition": "one of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes",
+    "category": "Third Course",
+    "transcription": "/kɑːrd/",
+    "imagepath": "path/to/image/card.jpg"
+  },
+  {
+    "word": "care",
+    "definition": "the work of providing treatment for or attending to someone or something",
+    "category": "Third Course",
+    "transcription": "/kɛr/",
+    "imagepath": "path/to/image/care.jpg"
+  },
+  {
+    "word": "carriage",
+    "definition": "a railcar where passengers ride",
+    "category": "Third Course",
+    "transcription": "/ˈkærɪdʒ/",
+    "imagepath": "path/to/image/carriage.jpg"
+  },
+  {
+    "word": "cart",
+    "definition": "a heavy open wagon usually having two wheels and drawn by an animal",
+    "category": "Third Course",
+    "transcription": "/kɑːrt/",
+    "imagepath": "path/to/image/cart.jpg"
+  },
+  {
+    "word": "cat",
+    "definition": "feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats",
+    "category": "Third Course",
+    "transcription": "/kæt/",
+    "imagepath": "path/to/image/cat.jpg"
+  },
+  {
+    "word": "cause",
+    "definition": "events that provide the generative force that is the origin of something",
+    "category": "Third Course",
+    "transcription": "/kɔːz/",
+    "imagepath": "path/to/image/cause.jpg"
+  },
+  {
+    "word": "certain",
+    "definition": "definite but not specified or identified",
+    "category": "Third Course",
+    "transcription": "/ˈsɜːrtən/",
+    "imagepath": "path/to/image/certain.jpg"
+  },
+  {
+    "word": "chain",
+    "definition": "a series of things depending on each other as if linked together",
+    "category": "Third Course",
+    "transcription": "/ʧeɪn/",
+    "imagepath": "path/to/image/chain.jpg"
+  },
+  {
+    "word": "chalk",
+    "definition": "a soft whitish calcite",
+    "category": "Third Course",
+    "transcription": "/ʧɔːk/",
+    "imagepath": "path/to/image/chalk.jpg"
+  },
+  {
+    "word": "chance",
+    "definition": "a possibility due to a favorable combination of circumstances",
+    "category": "Third Course",
+    "transcription": "/ʧæns/",
+    "imagepath": "path/to/image/chance.jpg"
+  },
+  {
+    "word": "change",
+    "definition": "an event that occurs when something passes from one state or phase to another",
+    "category": "Third Course",
+    "transcription": "/ʧeɪndʒ/",
+    "imagepath": "path/to/image/change.jpg"
+  },
+  {
+    "word": "cheap",
+    "definition": "relatively low in price or charging low prices",
+    "category": "Third Course",
+    "transcription": "/ʧiːp/",
+    "imagepath": "path/to/image/cheap.jpg"
+  },
+  {
+    "word": "cheese",
+    "definition": "a solid food prepared from the pressed curd of milk",
+    "category": "Third Course",
+    "transcription": "/ʧiːz/",
+    "imagepath": "path/to/image/cheese.jpg"
+  },
+  {
+    "word": "chemical",
+    "definition": "material produced by or used in a reaction involving changes in atoms or molecules",
+    "category": "Third Course",
+    "transcription": "/ˈkɛmɪkəl/",
+    "imagepath": "path/to/image/chemical.jpg"
+  },
+  {
+    "word": "chest",
+    "definition": "the part of the human torso between the neck and the diaphragm or the corresponding part in other vertebrates",
+    "category": "Third Course",
+    "transcription": "/ʧɛst/",
+    "imagepath": "path/to/image/chest.jpg"
+  },
+  {
+    "word": "chief",
+    "definition": "a person who is in charge",
+    "category": "Third Course",
+    "transcription": "/ʧiːf/",
+    "imagepath": "path/to/image/chief.jpg"
+  },
+  {
+    "word": "chin",
+    "definition": "the protruding part of the lower jaw",
+    "category": "Third Course",
+    "transcription": "/ʧɪn/",
+    "imagepath": "path/to/image/chin.jpg"
+  },
+  {
+    "word": "church",
+    "definition": "one of the groups of Christians who have their own beliefs and forms of worship",
+    "category": "Third Course",
+    "transcription": "/ʧɜːrtʃ/",
+    "imagepath": "path/to/image/church.jpg"
+  },
+  {
+    "word": "circle",
+    "definition": "ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point",
+    "category": "Third Course",
+    "transcription": "/ˈsɜːrkl/",
+    "imagepath": "path/to/image/circle.jpg"
+  },
+  {
+    "word": "clean",
+    "definition": "a weightlift in which the barbell is lifted to shoulder height and then jerked overhead",
+    "category": "Third Course",
+    "transcription": "/kliːn/",
+    "imagepath": "path/to/image/clean.jpg"
+  },
+  {
+    "word": "clear",
+    "definition": "the state of being free of suspicion",
+    "category": "Fourth Course",
+    "transcription": "/klɪər/",
+    "imagepath": "path/to/image/clear.jpg"
+  },
+  {
+    "word": "clock",
+    "definition": "a timepiece that shows the time of day",
+    "category": "Fourth Course",
+    "transcription": "/klɒk/",
+    "imagepath": "path/to/image/clock.jpg"
+  },
+  {
+    "word": "cloth",
+    "definition": "artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers",
+    "category": "Fourth Course",
+    "transcription": "/klɒθ/",
+    "imagepath": "path/to/image/cloth.jpg"
+  },
+  {
+    "word": "cloud",
+    "definition": "any collection of particles (e.g., smoke or dust) or gases that is visible",
+    "category": "Fourth Course",
+    "transcription": "/klaʊd/",
+    "imagepath": "path/to/image/cloud.jpg"
+  },
+  {
+    "word": "coal",
+    "definition": "fossil fuel consisting of carbonized vegetable matter deposited in the Carboniferous period",
+    "category": "Fourth Course",
+    "transcription": "/kəʊl/",
+    "imagepath": "path/to/image/coal.jpg"
+  },
+  {
+    "word": "coat",
+    "definition": "an outer garment that has sleeves and covers the body from shoulder down; worn outdoors",
+    "category": "Fourth Course",
+    "transcription": "/kəʊt/",
+    "imagepath": "path/to/image/coat.jpg"
+  },
+  {
+    "word": "cold",
+    "definition": "a mild viral infection involving the nose and respiratory passages (but not the lungs)",
+    "category": "Fourth Course",
+    "transcription": "/kəʊld/",
+    "imagepath": "path/to/image/cold.jpg"
+  },
+  {
+    "word": "collar",
+    "definition": "a band that fits around the neck and is usually folded over",
+    "category": "Fourth Course",
+    "transcription": "/ˈkɒlər/",
+    "imagepath": "path/to/image/collar.jpg"
+  },
+  {
+    "word": "colour",
+    "definition": "any material used for its color",
+    "category": "Fourth Course",
+    "transcription": "/ˈkʌlər/",
+    "imagepath": "path/to/image/colour.jpg"
+  },
+  {
+    "word": "comb",
+    "definition": "a flat device with narrow pointed teeth on one edge; disentangles or arranges hair",
+    "category": "Fourth Course",
+    "transcription": "/kəʊm/",
+    "imagepath": "path/to/image/comb.jpg"
+  },
+  {
+    "word": "come",
+    "definition": "the thick white fluid containing spermatozoa that is ejaculated by the male genital tract",
+    "category": "Fourth Course",
+    "transcription": "/kʌm/",
+    "imagepath": "path/to/image/come.jpg"
+  },
+  {
+    "word": "comfort",
+    "definition": "a state of being relaxed and feeling no pain",
+    "category": "Fourth Course",
+    "transcription": "/ˈkʌmfərt/",
+    "imagepath": "path/to/image/comfort.jpg"
+  },
+  {
+    "word": "committee",
+    "definition": "a special group delegated to consider some matter; - Milton Berle",
+    "category": "Fourth Course",
+    "transcription": "/kəˈmɪti/",
+    "imagepath": "path/to/image/committee.jpg"
+  },
+  {
+    "word": "common",
+    "definition": "a piece of open land for recreational use in an urban area",
+    "category": "Fourth Course",
+    "transcription": "/ˈkɒmən/",
+    "imagepath": "path/to/image/common.jpg"
+  },
+  {
+    "word": "company",
+    "definition": "an institution created to conduct business",
+    "category": "Fourth Course",
+    "transcription": "/ˈkʌmpəni/",
+    "imagepath": "path/to/image/company.jpg"
+  },
+  {
+    "word": "comparison",
+    "definition": "the act of examining resemblances",
+    "category": "Fourth Course",
+    "transcription": "/kəmˈpærɪsən/",
+    "imagepath": "path/to/image/comparison.jpg"
+  },
+  {
+    "word": "competition",
+    "definition": "a business relation in which two parties compete to gain customers",
+    "category": "Fourth Course",
+    "transcription": "/ˌkɒmpəˈtɪʃən/",
+    "imagepath": "path/to/image/competition.jpg"
+  },
+  {
+    "word": "complete",
+    "definition": "come or bring to a finish or an end",
+    "category": "Fourth Course",
+    "transcription": "/kəmˈpliːt/",
+    "imagepath": "path/to/image/complete.jpg"
+  },
+  {
+    "word": "complex",
+    "definition": "a conceptual whole made up of complicated and related parts",
+    "category": "Fourth Course",
+    "transcription": "/ˈkɒmplɛks/",
+    "imagepath": "path/to/image/complex.jpg"
+  },
+  {
+    "word": "condition",
+    "definition": "a state at a particular time",
+    "category": "Fourth Course",
+    "transcription": "/kənˈdɪʃən/",
+    "imagepath": "path/to/image/condition.jpg"
+  },
+  {
+    "word": "connection",
+    "definition": "a relation between things or events (as in the case of one causing the other or sharing features with it)",
+    "category": "Fourth Course",
+    "transcription": "/kəˈnɛkʃən/",
+    "imagepath": "path/to/image/connection.jpg"
+  },
+  {
+    "word": "conscious",
+    "definition": "intentionally conceived",
+    "category": "Fourth Course",
+    "transcription": "/ˈkɒnʃəs/",
+    "imagepath": "path/to/image/conscious.jpg"
+  },
+  {
+    "word": "control",
+    "definition": "power to direct or determine",
+    "category": "Fourth Course",
+    "transcription": "/kənˈtrəʊl/",
+    "imagepath": "path/to/image/control.jpg"
+  },
+  {
+    "word": "cook",
+    "definition": "someone who cooks food",
+    "category": "Fourth Course",
+    "transcription": "/kʊk/",
+    "imagepath": "path/to/image/cook.jpg"
+  },
+  {
+    "word": "copper",
+    "definition": "a ductile malleable reddish-brown corrosion-resistant diamagnetic metallic element; occurs in various minerals but is the only metal that occurs abundantly in large masses; used as an electrical and thermal conductor",
+    "category": "Fourth Course",
+    "transcription": "/ˈkɒpər/",
+    "imagepath": "path/to/image/copper.jpg"
+  },
+  {
+    "word": "copy",
+    "definition": "a reproduction of a written record (e.g. of a legal or school record)",
+    "category": "Fourth Course",
+    "transcription": "/ˈkɒpi/",
+    "imagepath": "path/to/image/copy.jpg"
+  },
+  {
+    "word": "cord",
+    "definition": "a line made of twisted fibers or threads",
+    "category": "Fourth Course",
+    "transcription": "/kɔːd/",
+    "imagepath": "path/to/image/cord.jpg"
+  },
+  {
+    "word": "cork",
+    "definition": "outer bark of the cork oak; used for stoppers for bottles etc.",
+    "category": "Fourth Course",
+    "transcription": "/kɔːrk/",
+    "imagepath": "path/to/image/cork.jpg"
+  },
+  {
+    "word": "cotton",
+    "definition": "soft silky fibers from cotton plants in their raw state",
+    "category": "General",
+    "transcription": "/ˈkɒtn/",
+    "imagepath": "path/to/image/cotton.jpg"
+  },
+  {
+    "word": "cough",
+    "definition": "a sudden noisy expulsion of air from the lungs that clears the air passages; a common symptom of upper respiratory infection or bronchitis or pneumonia or tuberculosis",
+    "category": "General",
+    "transcription": "/kɒf/",
+    "imagepath": "path/to/image/cough.jpg"
+  },
+  {
+    "word": "country",
+    "definition": "a politically organized body of people under a single government",
+    "category": "General",
+    "transcription": "/ˈkʌntri/",
+    "imagepath": "path/to/image/country.jpg"
+  },
+  {
+    "word": "cover",
+    "definition": "a covering that serves to conceal or shelter something",
+    "category": "General",
+    "transcription": "/ˈkʌvər/",
+    "imagepath": "path/to/image/cover.jpg"
+  },
+  {
+    "word": "cow",
+    "definition": "female of domestic cattle",
+    "category": "General",
+    "transcription": "/kaʊ/",
+    "imagepath": "path/to/image/cow.jpg"
+  },
+  {
+    "word": "crack",
+    "definition": "a long narrow opening",
+    "category": "General",
+    "transcription": "/kræk/",
+    "imagepath": "path/to/image/crack.jpg"
+  },
+  {
+    "word": "credit",
+    "definition": "approval",
+    "category": "General",
+    "transcription": "/ˈkrɛdɪt/",
+    "imagepath": "path/to/image/credit.jpg"
+  },
+  {
+    "word": "crime",
+    "definition": "(criminal law) an act punishable by law; usually considered an evil act",
+    "category": "General",
+    "transcription": "/kraɪm/",
+    "imagepath": "path/to/image/crime.jpg"
+  },
+  {
+    "word": "cruel",
+    "definition": "(of persons or their actions) able or disposed to inflict pain or suffering",
+    "category": "General",
+    "transcription": "/ˈkruːəl/",
+    "imagepath": "path/to/image/cruel.jpg"
+  },
+  {
+    "word": "crush",
+    "definition": "leather that has had its grain pattern accentuated",
+    "category": "General",
+    "transcription": "/krʌʃ/",
+    "imagepath": "path/to/image/crush.jpg"
+  },
+  {
+    "word": "cry",
+    "definition": "a loud utterance; often in protest or opposition",
+    "category": "General",
+    "transcription": "/kraɪ/",
+    "imagepath": "path/to/image/cry.jpg"
+  },
+  {
+    "word": "cup",
+    "definition": "a small open container usually used for drinking; usually has a handle",
+    "category": "General",
+    "transcription": "/kʌp/",
+    "imagepath": "path/to/image/cup.jpg"
+  },
+  {
+    "word": "current",
+    "definition": "a flow of electricity through a conductor",
+    "category": "General",
+    "transcription": "/ˈkʌrənt/",
+    "imagepath": "path/to/image/current.jpg"
+  },
+  {
+    "word": "curtain",
+    "definition": "hanging cloth used as a blind (especially for a window)",
+    "category": "General",
+    "transcription": "/ˈkɜːrtən/",
+    "imagepath": "path/to/image/curtain.jpg"
+  },
+  {
+    "word": "curve",
+    "definition": "the trace of a point whose direction of motion changes",
+    "category": "General",
+    "transcription": "/kɜːv/",
+    "imagepath": "path/to/image/curve.jpg"
+  },
+  {
+    "word": "cushion",
+    "definition": "a mechanical damper; absorbs energy of sudden impulses",
+    "category": "General",
+    "transcription": "/ˈkʊʃən/",
+    "imagepath": "path/to/image/cushion.jpg"
+  },
+  {
+    "word": "cut",
+    "definition": "a share of the profits",
+    "category": "General",
+    "transcription": "/kʌt/",
+    "imagepath": "path/to/image/cut.jpg"
+  },
+  {
+    "word": "damage",
+    "definition": "the occurrence of a change for the worse",
+    "category": "General",
+    "transcription": "/ˈdæmɪdʒ/",
+    "imagepath": "path/to/image/damage.jpg"
+  },
+  {
+    "word": "danger",
+    "definition": "the condition of being susceptible to harm or injury",
+    "category": "General",
+    "transcription": "/ˈdeɪndʒər/",
+    "imagepath": "path/to/image/danger.jpg"
+  },
+  {
+    "word": "dark",
+    "definition": "absence of light or illumination",
+    "category": "General",
+    "transcription": "/dɑːrk/",
+    "imagepath": "path/to/image/dark.jpg"
+  },
+  {
+    "word": "daughter",
+    "definition": "a female human offspring",
+    "category": "General",
+    "transcription": "/ˈdɔːtər/",
+    "imagepath": "path/to/image/daughter.jpg"
+  },
+  {
+    "word": "day",
+    "definition": "time for Earth to make a complete rotation on its axis",
+    "category": "General",
+    "transcription": "/deɪ/",
+    "imagepath": "path/to/image/day.jpg"
+  },
+  {
+    "word": "dead",
+    "definition": "people who are no longer living",
+    "category": "General",
+    "transcription": "/dɛd/",
+    "imagepath": "path/to/image/dead.jpg"
+  },
+  {
+    "word": "dear",
+    "definition": "a beloved person; used as terms of endearment",
+    "category": "General",
+    "transcription": "/dɪər/",
+    "imagepath": "path/to/image/dear.jpg"
+  },
+  {
+    "word": "death",
+    "definition": "the event of dying or departure from life",
+    "category": "General",
+    "transcription": "/dɛθ/",
+    "imagepath": "path/to/image/death.jpg"
+  },
+  {
+    "word": "debt",
+    "definition": "the state of owing something (especially money)",
+    "category": "General",
+    "transcription": "/dɛt/",
+    "imagepath": "path/to/image/debt.jpg"
+  },
+  {
+    "word": "decision",
+    "definition": "the act of making up your mind about something",
+    "category": "General",
+    "transcription": "/dɪˈsɪʒən/",
+    "imagepath": "path/to/image/decision.jpg"
+  },
+  {
+    "word": "deep",
+    "definition": "the central and most intense or profound part",
+    "category": "General",
+    "transcription": "/diːp/",
+    "imagepath": "path/to/image/deep.jpg"
+  },
+  {
+    "word": "degree",
+    "definition": "a position on a scale of intensity or amount or quality",
+    "category": "General",
+    "transcription": "/dɪˈɡriː/",
+    "imagepath": "path/to/image/degree.jpg"
+  },
+  {
+    "word": "delicate",
+    "definition": "exquisitely fine and subtle and pleasing; susceptible to injury",
+    "category": "General",
+    "transcription": "/ˈdɛlɪkət/",
+    "imagepath": "path/to/image/delicate.jpg"
+  },
+  {
+    "word": "dependent",
+    "definition": "a person who relies on another person for support (especially financial support)",
+    "category": "General",
+    "transcription": "/dɪˈpɛndənt/",
+    "imagepath": "path/to/image/dependent.jpg"
+  },
+  {
+    "word": "design",
+    "definition": "the act of working out the form of something (as by making a sketch or outline or plan)",
+    "category": "General",
+    "transcription": "/dɪˈzaɪn/",
+    "imagepath": "path/to/image/design.jpg"
+  },
+  {
+    "word": "desire",
+    "definition": "the feeling that accompanies an unsatisfied state",
+    "category": "General",
+    "transcription": "/dɪˈzaɪər/",
+    "imagepath": "path/to/image/desire.jpg"
+  },
+  {
+    "word": "destruction",
+    "definition": "the termination of something by causing so much damage to it that it cannot be repaired or no longer exists",
+    "category": "General",
+    "transcription": "/dɪˈstrʌkʃən/",
+    "imagepath": "path/to/image/destruction.jpg"
+  },
+  {
+    "word": "detail",
+    "definition": "an isolated fact that is considered separately from the whole",
+    "category": "General",
+    "transcription": "/ˈdiːteɪl/",
+    "imagepath": "path/to/image/detail.jpg"
+  },
+  {
+    "word": "development",
+    "definition": "act of improving by expanding or enlarging or refining",
+    "category": "General",
+    "transcription": "/dɪˈvɛləpmənt/",
+    "imagepath": "path/to/image/development.jpg"
+  },
+  {
+    "word": "different",
+    "definition": "unlike in nature or quality or form or degree",
+    "category": "General",
+    "transcription": "/ˈdɪfərənt/",
+    "imagepath": "path/to/image/different.jpg"
+  },
+  {
+    "word": "digestion",
+    "definition": "the process of decomposing organic matter (as in sewage) by bacteria or by chemical action or heat",
+    "category": "General",
+    "transcription": "/daɪˈdʒɛstʃən/",
+    "imagepath": "path/to/image/digestion.jpg"
+  },
+  {
+    "word": "direction",
+    "definition": "a line leading to a place or point",
+    "category": "General",
+    "transcription": "/dəˈrɛkʃən/",
+    "imagepath": "path/to/image/direction.jpg"
+  },
+  {
+    "word": "dirty",
+    "definition": "make soiled, filthy, or dirty",
+    "category": "General",
+    "transcription": "/ˈdɜːrti/",
+    "imagepath": "path/to/image/dirty.jpg"
+  },
+  {
+    "word": "discovery",
+    "definition": "the act of discovering something",
+    "category": "General",
+    "transcription": "/dɪsˈkʌvəri/",
+    "imagepath": "path/to/image/discovery.jpg"
+  },
+  {
+    "word": "discussion",
+    "definition": "an extended communication (often interactive) dealing with some particular topic",
+    "category": "General",
+    "transcription": "/dɪsˈkʌʃən/",
+    "imagepath": "path/to/image/discussion.jpg"
+  },
+  {
+    "word": "disease",
+    "definition": "an impairment of health or a condition of abnormal functioning",
+    "category": "General",
+    "transcription": "/dɪˈziːz/",
+    "imagepath": "path/to/image/disease.jpg"
+  }]
