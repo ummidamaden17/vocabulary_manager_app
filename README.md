@@ -29,30 +29,8 @@ The **Vocabulary Builder App** is designed to help language learners enhance the
 4. Launch the app using an emulator or a physical device.
 
 ## Screenshots
-
-### Login Page
-![Screenshot 2024-12-22 230203](https://github.com/user-attachments/assets/1c4484b7-2914-4e70-96dc-ea8c0b55c6ad)
-
-
-### Home Page
-![Screenshot 2024-12-22 230308](https://github.com/user-attachments/assets/0a682e20-4465-4ed7-8387-618a57acb16b)
-
-
-### SplashScreen Page
-![Screenshot 2024-12-22 230234](https://github.com/user-attachments/assets/0accf3dc-f492-4399-87ef-ea514704fc31)
-
-
-### Search Word Details
-![Screenshot 2024-12-22 230331](https://github.com/user-attachments/assets/c4fec165-9259-49ba-a539-dd5fd38e2f15)
-
-
-### Learn Words 
-![Screenshot 2024-12-22 230403](https://github.com/user-attachments/assets/10d5ea51-6c16-48ea-8ac2-4d22275e7edf)
-
-
-### Play Page
-![Screenshot 2024-12-22 230416](https://github.com/user-attachments/assets/5950347c-75ff-4259-a929-4df4d8fae45b)
-
+### Login Page ### Home Page ### SplashScreen Page ### Search Word Details ### Learn Words ### Play Page
+![VocabularyApp](https://github.com/user-attachments/assets/1cac4e83-df9d-4d2a-b2ba-ca774204c9c5)
 
 
 ## Future Improvements
