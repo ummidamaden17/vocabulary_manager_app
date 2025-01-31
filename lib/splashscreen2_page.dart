@@ -21,7 +21,7 @@ class _LearnEnglishReasonPageState extends State<LearnEnglishReasonPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [Color(0xFFFFBFC5), Color(0xFFEB8DB5)],
             begin: Alignment.topLeft,
@@ -33,22 +33,22 @@ class _LearnEnglishReasonPageState extends State<LearnEnglishReasonPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 100,
               ),
-              Text(
+              const Text(
                 "Why Do You Want to Learn English? 🧐",
                 style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
                     color: Colors.black),
               ),
-              SizedBox(height: 10),
-              Text(
+              const SizedBox(height: 10),
+              const Text(
                 "Pick a reason that motivates you the most.",
                 style: TextStyle(fontSize: 16, color: Colors.black54),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               Expanded(
                 child: ListView.builder(
                   itemCount: reasons.length,
@@ -62,7 +62,7 @@ class _LearnEnglishReasonPageState extends State<LearnEnglishReasonPage> {
                         });
                       },
                       child: Container(
-                        margin: EdgeInsets.only(bottom: 12),
+                        margin: const EdgeInsets.only(bottom: 12),
                         decoration: BoxDecoration(
                           color: isSelected ? Colors.purple[50] : Colors.white,
                           borderRadius: BorderRadius.circular(20),
@@ -75,24 +75,25 @@ class _LearnEnglishReasonPageState extends State<LearnEnglishReasonPage> {
                             BoxShadow(
                               color: Colors.grey.withOpacity(0.1),
                               blurRadius: 10,
-                              offset: Offset(0, 5),
+                              offset: const Offset(0, 5),
                             ),
                           ],
                         ),
                         child: ListTile(
                           leading: Text(
                             reason["emoji"]!,
-                            style: TextStyle(fontSize: 28),
+                            style: const TextStyle(fontSize: 28),
                           ),
                           title: Text(
                             reason["reason"]!,
-                            style: TextStyle(
+                            style: const TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.w500,
                             ),
                           ),
                           trailing: isSelected
-                              ? Icon(Icons.check_circle, color: Colors.purple)
+                              ? const Icon(Icons.check_circle,
+                                  color: Colors.purple)
                               : null,
                         ),
                       ),
@@ -100,12 +101,12 @@ class _LearnEnglishReasonPageState extends State<LearnEnglishReasonPage> {
                   },
                 ),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: selectedReason != null
                     ? () {
                         ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
+                          const SnackBar(
                             content: Text("Thank you for answer!"),
                           ),
                         );
@@ -118,12 +119,12 @@ class _LearnEnglishReasonPageState extends State<LearnEnglishReasonPage> {
                 style: ElevatedButton.styleFrom(
                   backgroundColor:
                       selectedReason != null ? Colors.black : Colors.grey,
-                  padding: EdgeInsets.symmetric(vertical: 16),
+                  padding: const EdgeInsets.symmetric(vertical: 16),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
                 ),
-                child: Center(
+                child: const Center(
                   child: Text(
                     "Next",
                     style: TextStyle(fontSize: 18, color: Colors.white),

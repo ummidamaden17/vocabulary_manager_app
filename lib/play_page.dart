@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:midterm_project/home_page.dart';
 import 'package:provider/provider.dart';
@@ -7,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'category_page.dart';
 import 'models/word.dart';
+import 'translator_page.dart';
 import 'word_state.dart';
 
 class PlayPage extends StatefulWidget {
@@ -27,7 +26,9 @@ class _PlayPageState extends State<PlayPage> {
   @override
   void initState() {
     super.initState();
-    loadLearnedWords();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      loadLearnedWords();
+    });
   }
 
   Future<void> loadLearnedWords() async {
@@ -35,10 +36,7 @@ class _PlayPageState extends State<PlayPage> {
     List<String> savedWordsJson = prefs.getStringList('saved_words') ?? [];
 
     final wordState = Provider.of<WordState>(context, listen: false);
-    wordState.learnedWords = savedWordsJson
-        .map((wordJson) => Word.fromMap(json.decode(wordJson)))
-        .toList();
-    wordState.notifyListeners();
+    wordState.loadLearnedWordsFromPrefs(savedWordsJson);
   }
 
   Future<String> getUsername() async {
@@ -68,7 +66,7 @@ class _PlayPageState extends State<PlayPage> {
       });
 
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
+        const SnackBar(
           content: Text('Please enter an answer before submitting.'),
           backgroundColor: Colors.red,
         ),
@@ -111,7 +109,7 @@ class _PlayPageState extends State<PlayPage> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Quiz Finished!'),
+          title: const Text('Quiz Finished!'),
           content: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -126,14 +124,14 @@ class _PlayPageState extends State<PlayPage> {
                 restartQuiz();
                 Navigator.of(context).pop();
               },
-              child: Text('Restart Quiz'),
+              child: const Text('Restart Quiz'),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushReplacement(context,
                     MaterialPageRoute(builder: (context) => HomePage()));
               },
-              child: Text('Go to Home Page'),
+              child: const Text('Go to Home Page'),
             ),
           ],
         );
@@ -141,21 +139,24 @@ class _PlayPageState extends State<PlayPage> {
     );
   }
 
-  void onTabTapped(int index) async {
+  int _currentIndex = 2;
+
+  void onTabTapped(int index) {
     if (index == 0) {
-      Navigator.pushReplacement(
+      Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => HomePage()),
       );
     } else if (index == 1) {
-      Navigator.pushReplacement(
+      Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => CategoryPage()),
+        MaterialPageRoute(builder: (context) => const CategoryPage()),
       );
-    } else if (index == 2) {
-      Navigator.pushReplacement(
+    } else if (index == 3) {
+      Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => PlayPage()),
+        MaterialPageRoute(
+            builder: (context) => translatorPage()), // Navigate to the new page
       );
     }
   }
@@ -166,27 +167,31 @@ class _PlayPageState extends State<PlayPage> {
 
     if (wordState.learnedWords.isEmpty) {
       return Scaffold(
-        appBar: AppBar(title: Text('Play Page')),
+        appBar: AppBar(title: const Text('Play Page')),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('No words selected to play.'),
-              SizedBox(height: 20),
+              const Text('No words selected to play.'),
+              const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(builder: (context) => CategoryPage()),
+                    MaterialPageRoute(
+                        builder: (context) => const CategoryPage()),
                   );
                 },
-                child: Text('Go to Category Page'),
+                child: const Text('Go to Category Page'),
               ),
             ],
           ),
         ),
         bottomNavigationBar: BottomNavigationBar(
-          currentIndex: 1,
+          backgroundColor: Colors.blueGrey, // Change background color
+          currentIndex: _currentIndex,
+          selectedItemColor: Colors.black, // Change selected icon color
+          unselectedItemColor: Colors.black54, // Change unselected icon color
           onTap: onTabTapped,
           items: const [
             BottomNavigationBarItem(
@@ -201,6 +206,10 @@ class _PlayPageState extends State<PlayPage> {
               icon: Icon(Icons.play_arrow),
               label: 'Play',
             ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.new_releases),
+              label: 'New Page',
+            ),
           ],
         ),
       );
@@ -209,105 +218,93 @@ class _PlayPageState extends State<PlayPage> {
     Word currentWord = wordState.learnedWords[currentIndex];
 
     return Scaffold(
-        appBar: AppBar(
-          title: Text('Play Page'),
-        ),
-        body: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                'Guess the word for the definition:',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+      appBar: AppBar(
+        title: const Text('Play Page'),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              'Guess the word for the definition:',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 10),
+            Text(
+              currentWord.definition,
+              style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 20),
+            TextField(
+              controller: answerController,
+              decoration: const InputDecoration(
+                labelText: 'Your Answer',
+                border: OutlineInputBorder(),
               ),
-              SizedBox(height: 10),
-              Text(
-                currentWord.definition,
-                style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
-              ),
-              SizedBox(height: 20),
-              TextField(
-                controller: answerController,
-                decoration: InputDecoration(
-                  labelText: 'Your Answer',
-                  border: OutlineInputBorder(),
-                ),
-              ),
-              SizedBox(height: 20),
-              Column(
-                children: [
-                  if (!showAnswer)
-                    ElevatedButton(
-                      onPressed: checkAnswer,
-                      child: Text('Submit'),
-                    ),
-                  if (showAnswer)
-                    Column(
-                      children: [
-                        SizedBox(height: 20),
-                        Text(
-                          isCorrect
-                              ? 'Correct! 🎉'
-                              : 'Wrong! ❌\nCorrect Word: ${currentWord.word}',
-                          style: TextStyle(
-                            fontSize: 18,
-                            color: isCorrect ? Colors.green : Colors.red,
-                          ),
+            ),
+            const SizedBox(height: 20),
+            Column(
+              children: [
+                if (!showAnswer)
+                  ElevatedButton(
+                    onPressed: checkAnswer,
+                    child: const Text('Submit'),
+                  ),
+                if (showAnswer)
+                  Column(
+                    children: [
+                      const SizedBox(height: 20),
+                      Text(
+                        isCorrect
+                            ? 'Correct! 🎉'
+                            : 'Wrong! ❌\nCorrect Word: ${currentWord.word}',
+                        style: TextStyle(
+                          fontSize: 18,
+                          color: isCorrect ? Colors.green : Colors.red,
                         ),
-                        SizedBox(height: 10),
-                        ElevatedButton(
-                          onPressed: goToNextQuestion,
-                          child: Text(
-                            currentIndex + 1 < wordState.learnedWords.length
-                                ? 'Next Word'
-                                : 'Finish Quiz',
-                          ),
+                      ),
+                      const SizedBox(height: 10),
+                      ElevatedButton(
+                        onPressed: goToNextQuestion,
+                        child: Text(
+                          currentIndex + 1 < wordState.learnedWords.length
+                              ? 'Next Word'
+                              : 'Finish Quiz',
                         ),
-                      ],
-                    ),
-                ],
-              )
-            ],
-          ),
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          currentIndex: 0,
-          onTap: (index) async {
-            if (index == 0) {
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(builder: (context) => HomePage()),
-              );
-            } else if (index == 1) {
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(builder: (context) => CategoryPage()),
-              );
-            } else if (index == 2) {
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(builder: (context) => PlayPage()),
-              );
-            }
-          },
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              label: 'Home',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.book),
-              label: 'Words',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.play_arrow,
-                size: 30,
-              ),
-              label: 'Play',
-            ),
+                      ),
+                    ],
+                  ),
+              ],
+            )
           ],
-        ));
+        ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.blueGrey, // Change background color
+        currentIndex: _currentIndex,
+        selectedItemColor: Colors.black, // Change selected icon color
+        unselectedItemColor: Colors.black54, // Change unselected icon color
+        onTap: onTabTapped,
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.book),
+            label: 'Words',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.play_arrow),
+            label: 'Play',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.new_releases),
+            label: 'New Page',
+          ),
+        ],
+      ),
+    );
   }
 }

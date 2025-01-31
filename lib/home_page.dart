@@ -7,6 +7,7 @@ import 'fourth_course_page.dart';
 import 'play_page.dart';
 import 'second_course_page.dart';
 import 'third_course_page.dart';
+import 'translator_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -15,7 +16,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   TextEditingController userNameController = TextEditingController();
-  String userName = 'Guest';
+  String userName = 'My Friend✌️';
   int _currentIndex = 0;
 
   @override
@@ -27,17 +28,17 @@ class _HomePageState extends State<HomePage> {
   Future<void> loadUserName() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
-      userName = prefs.getString('username') ?? 'Guest';
+      userName = prefs.getString('username') ?? 'My Friend✌️';
     });
   }
 
   Future<void> saveUserName() async {
     final username = userNameController.text.trim();
-    print("Saving username: $username");
+    ("Saving username: $username");
 
     if (username.isEmpty || username.length <= 3 || username.length > 20) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
+        const SnackBar(
           content: Text('Username must be between 4 and 20 characters.'),
         ),
       );
@@ -46,11 +47,11 @@ class _HomePageState extends State<HomePage> {
 
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString('username', username);
-    print("Username saved to SharedPreferences");
+    ("Username saved to SharedPreferences");
 
     setState(() {
       userName = username;
-      print("UI updated with username: $userName");
+      ("UI updated with username: $userName");
     });
   }
 
@@ -63,7 +64,13 @@ class _HomePageState extends State<HomePage> {
     } else if (index == 2) {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => PlayPage()),
+        MaterialPageRoute(builder: (context) => const PlayPage()),
+      );
+    } else if (index == 3) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => translatorPage()), // Navigate to the new page
       );
     }
   }
@@ -74,19 +81,19 @@ class _HomePageState extends State<HomePage> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: Text('Enter Your Name'),
+          title: const Text('Enter Your Name'),
           content: TextField(
             controller: userNameController,
-            decoration: InputDecoration(hintText: 'Your Name'),
+            decoration: const InputDecoration(hintText: 'Your Name'),
           ),
           actions: [
             TextButton(
               onPressed: () => Navigator.of(context).pop(),
-              child: Text('Cancel'),
+              child: const Text('Cancel'),
             ),
             ElevatedButton(
               onPressed: saveUserName,
-              child: Text('Save'),
+              child: const Text('Save'),
             ),
           ],
         );
@@ -112,7 +119,7 @@ class _HomePageState extends State<HomePage> {
                 color: Colors.black.withOpacity(0.1),
                 spreadRadius: 1,
                 blurRadius: 10,
-                offset: Offset(5, 5),
+                offset: const Offset(5, 5),
               ),
             ],
             color: Colors.white,
@@ -126,26 +133,26 @@ class _HomePageState extends State<HomePage> {
                   image: DecorationImage(
                       image: AssetImage(imagePath), fit: BoxFit.cover),
                 ),
-                child: SizedBox(width: 150, height: 150),
+                child: const SizedBox(width: 150, height: 150),
               ),
-              SizedBox(width: 30),
+              const SizedBox(width: 30),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
                     title,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 16,
                       color: Colors.grey,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 1,
                   ),
                   Text(
                     level,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 23,
                       fontWeight: FontWeight.bold,
                       color: Color(0xFF033495),
@@ -167,7 +174,7 @@ class _HomePageState extends State<HomePage> {
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
@@ -177,7 +184,7 @@ class _HomePageState extends State<HomePage> {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
+                        const Text(
                           'Welcome Back,',
                           style: TextStyle(
                             fontSize: 18,
@@ -186,7 +193,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                         Text(
                           userName,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
                             color: Color(0xFF033495),
@@ -195,7 +202,7 @@ class _HomePageState extends State<HomePage> {
                       ],
                     ),
                     IconButton(
-                      icon: Icon(
+                      icon: const Icon(
                         Icons.edit,
                         color: Color(0xFF033495),
                       ),
@@ -203,8 +210,8 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ],
                 ),
-                SizedBox(height: 30),
-                Text(
+                const SizedBox(height: 30),
+                const Text(
                   'Courses',
                   style: TextStyle(
                     fontSize: 22,
@@ -212,7 +219,7 @@ class _HomePageState extends State<HomePage> {
                     color: Colors.black,
                   ),
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 Column(
                   children: [
                     _buildCourseCard(
@@ -226,8 +233,7 @@ class _HomePageState extends State<HomePage> {
                             builder: (context) => FirstCoursePage(),
                           ),
                         );
-                        print(
-                            "Returned from FirstCoursePage with result: $result");
+                        ("Returned from FirstCoursePage with result: $result");
                       },
                     ),
                     _buildCourseCard(
@@ -241,8 +247,7 @@ class _HomePageState extends State<HomePage> {
                             builder: (context) => SecondCoursePage(),
                           ),
                         );
-                        print(
-                            "Returned from SecondCoursePage with result: $result");
+                        ("Returned from SecondCoursePage with result: $result");
                       },
                     ),
                     _buildCourseCard(
@@ -256,8 +261,7 @@ class _HomePageState extends State<HomePage> {
                             builder: (context) => ThirdCoursePage(),
                           ),
                         );
-                        print(
-                            "Returned from ThirdCoursePage with result: $result");
+                        ("Returned from ThirdCoursePage with result: $result");
                       },
                     ),
                     _buildCourseCard(
@@ -271,8 +275,7 @@ class _HomePageState extends State<HomePage> {
                             builder: (context) => FourthCoursePage(),
                           ),
                         );
-                        print(
-                            "Returned from FourthCoursePage with result: $result");
+                        ("Returned from FourthCoursePage with result: $result");
                       },
                     ),
                   ],
@@ -283,9 +286,12 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.blueGrey, // Change background color
         currentIndex: _currentIndex,
+        selectedItemColor: Colors.black, // Change selected icon color
+        unselectedItemColor: Colors.black54, // Change unselected icon color
         onTap: onTabTapped,
-        items: [
+        items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
@@ -297,6 +303,10 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.play_arrow),
             label: 'Play',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.g_translate_rounded),
+            label: 'New Page',
           ),
         ],
       ),

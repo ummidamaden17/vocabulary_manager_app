@@ -8,13 +8,13 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Timer(Duration(seconds: 2), () {
+    Timer(const Duration(seconds: 1), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => LogInPage()));
+          context, MaterialPageRoute(builder: (context) => const LogInPage()));
     });
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: SweepGradient(
             colors: [
               Color(0xFFA8D1E7),
@@ -29,7 +29,7 @@ class SplashScreen extends StatelessWidget {
             endAngle: 3.14 * 2,
           ),
         ),
-        child: Center(
+        child: const Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -42,7 +42,7 @@ class SplashScreen extends StatelessWidget {
                     color: Colors.black,
                     fontFamily: 'Nunito'),
               ),
-              Container(
+              SizedBox(
                 width: 250,
                 height: 250,
                 child: Image(image: AssetImage('assets/images/logo.png')),

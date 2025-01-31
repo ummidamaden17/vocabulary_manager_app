@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' as rootBundle;
+import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'models/word.dart';
@@ -32,9 +33,10 @@ class _SecondCoursePageState extends State<SecondCoursePage> {
         _listKey.currentState?.insertItem(i);
       }
     } catch (e) {
-      print('Error loading words: $e');
+      ('Error loading words: $e');
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Failed to load words. Please try again.')),
+        const SnackBar(
+            content: Text('Failed to load words. Please try again.')),
       );
     }
   }
@@ -119,7 +121,20 @@ class _SecondCoursePageState extends State<SecondCoursePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Second Course Words'),
+        title: const Text('Second Course Words'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.menu),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => FirstFlashcards(words: words),
+                ),
+              );
+            },
+          ),
+        ],
       ),
       body: Column(
         children: [
@@ -139,15 +154,15 @@ class _SecondCoursePageState extends State<SecondCoursePage> {
                       width: 38,
                       height: 38,
                       decoration: BoxDecoration(
-                          color: Color(0xFF033495),
+                          color: const Color(0xFF033495),
                           borderRadius: BorderRadius.circular(50)),
-                      child: Icon(Icons.search, color: Colors.white),
+                      child: const Icon(Icons.search, color: Colors.white),
                     ),
-                    SizedBox(width: 15),
+                    const SizedBox(width: 15),
                     Expanded(
                       child: TextField(
                         controller: _searchController,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                             label: Text('What do you need help with?',
                                 style: TextStyle(color: Colors.grey)),
                             border: InputBorder.none),
@@ -160,7 +175,7 @@ class _SecondCoursePageState extends State<SecondCoursePage> {
           ),
           Expanded(
             child: filteredWords.isEmpty
-                ? Center(
+                ? const Center(
                     child: Text(
                       'No words found.',
                       style: TextStyle(fontSize: 18, color: Colors.grey),
@@ -192,42 +207,181 @@ class _SecondCoursePageState extends State<SecondCoursePage> {
       context: context,
       builder: (BuildContext context) {
         return Padding(
-          padding: EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(16.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
                 word.word,
-                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                style:
+                    const TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Text(
                 word.transcription,
-                style: TextStyle(fontSize: 18, color: Colors.grey),
+                style: const TextStyle(fontSize: 18, color: Colors.grey),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               Text(
                 word.definition,
-                style: TextStyle(fontSize: 18),
+                style: const TextStyle(fontSize: 18),
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               ElevatedButton.icon(
                 onPressed: () {
                   saveWordToCategory(context, word);
                   Navigator.pop(context);
                 },
-                icon: Icon(Icons.thumb_up, color: Colors.black),
-                label: Text('Learn this word',
+                icon: const Icon(Icons.thumb_up, color: Colors.black),
+                label: const Text('Learn this word',
                     style: TextStyle(color: Colors.black)),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Color(0xFFFFBFC5),
+                  backgroundColor: const Color(0xFFFFBFC5),
                 ),
               ),
             ],
           ),
         );
       },
+    );
+  }
+}
+
+class FirstFlashcards extends StatefulWidget {
+  final List<Word> words;
+
+  FirstFlashcards({required this.words});
+
+  @override
+  _FirstFlashcardsState createState() => _FirstFlashcardsState();
+}
+
+class _FirstFlashcardsState extends State<FirstFlashcards> {
+  int currentIndex = 0;
+  bool showDefinition = false;
+  String? imageUrl;
+
+  @override
+  void initState() {
+    super.initState();
+    _fetchImage(widget.words[currentIndex].word);
+  }
+
+  Future<void> _fetchImage(String word) async {
+    const String apiKey = '48521316-18bb3c851e33dc1a3dc586ee2';
+    final String url =
+        'https://pixabay.com/api/?key=$apiKey&q=$word&image_type=photo';
+
+    try {
+      final response = await http.get(Uri.parse(url));
+      if (response.statusCode == 200) {
+        final Map<String, dynamic> data = jsonDecode(response.body);
+        if (data['hits'].isNotEmpty) {
+          setState(() {
+            imageUrl = data['hits'][0]['webformatURL'];
+          });
+        } else {
+          setState(() {
+            imageUrl = null;
+          });
+        }
+      }
+    } catch (e) {
+      setState(() {
+        imageUrl = null;
+      });
+    }
+  }
+
+  void nextCard() {
+    if (currentIndex < widget.words.length - 1) {
+      setState(() {
+        currentIndex++;
+        showDefinition = false;
+        imageUrl = null; // Reset image before fetching new one
+      });
+      _fetchImage(widget.words[currentIndex].word);
+    }
+  }
+
+  void previousCard() {
+    if (currentIndex > 0) {
+      setState(() {
+        currentIndex--;
+        showDefinition = false;
+        imageUrl = null;
+      });
+      _fetchImage(widget.words[currentIndex].word);
+    }
+  }
+
+  void toggleDefinition() {
+    setState(() {
+      showDefinition = !showDefinition;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final word = widget.words[currentIndex];
+
+    return Scaffold(
+      appBar: AppBar(title: const Text('Flashcards')),
+      body: Center(
+        child: Card(
+          elevation: 5,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+          child: Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: GestureDetector(
+              onTap: toggleDefinition,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (!showDefinition) ...[
+                    Text(
+                      word.word,
+                      style: const TextStyle(
+                          fontSize: 24, fontWeight: FontWeight.bold),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      word.transcription,
+                      style: const TextStyle(fontSize: 18, color: Colors.grey),
+                    ),
+                  ] else ...[
+                    imageUrl != null
+                        ? Image.network(imageUrl!,
+                            width: 200, height: 200, fit: BoxFit.cover)
+                        : Image.asset('assets/default_image.png',
+                            width: 200, height: 200),
+                    const SizedBox(height: 10),
+                    Text(
+                      word.definition,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(fontSize: 18),
+                    ),
+                  ],
+                  const SizedBox(height: 20),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      IconButton(
+                          icon: const Icon(Icons.arrow_back),
+                          onPressed: previousCard),
+                      IconButton(
+                          icon: const Icon(Icons.arrow_forward),
+                          onPressed: nextCard),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

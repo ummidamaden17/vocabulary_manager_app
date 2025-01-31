@@ -1,7 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-
-import 'splashscreen2_page.dart';
+import 'package:midterm_project/home_page.dart';
 
 class RegistrationPage extends StatelessWidget {
   const RegistrationPage({super.key});
@@ -39,22 +38,32 @@ class _RegistrationFormState extends State<RegistrationForm> {
   final TextEditingController _passwordController = TextEditingController();
 
   Future<void> _registerUser() async {
-    if (_formKey.currentState!.validate()) {
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.setString('username', _nameController.text.trim());
+    try {
+      final userCredential = await FirebaseAuth.instance
+          .createUserWithEmailAndPassword(
+              email: _emailController.text.trim(),
+              password: _passwordController.text.trim());
 
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Registration Successful!')),
-      );
-
+      print(userCredential.user);
       Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (context) => LearnEnglishReasonPage()),
-      );
-    } else {
+          context, MaterialPageRoute(builder: (context) => HomePage()));
+    } on FirebaseAuthException catch (e) {
+      String errorMessage = "An error occurred. Please try again.";
+
+      if (e.code == 'email-already-in-use') {
+        errorMessage = "This email is already registered. Please log in.";
+      } else if (e.code == 'invalid-email') {
+        errorMessage = "Invalid email format. Please enter a valid email.";
+      } else if (e.code == 'weak-password') {
+        errorMessage = "Your password is too weak. Try a stronger one.";
+      }
+
+      // Show error message in UI
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please complete all fields correctly')),
+        SnackBar(content: Text(errorMessage)),
       );
+
+      print(e.message);
     }
   }
 
@@ -68,11 +77,10 @@ class _RegistrationFormState extends State<RegistrationForm> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Container(
+              const SizedBox(
                 width: 150,
                 height: 150,
-                child: const Image(
-                    image: AssetImage('assets/images/sticker4.jpg')),
+                child: Image(image: AssetImage('assets/images/sticker4.jpg')),
               ),
               const SizedBox(height: 20),
               const Text(
@@ -80,6 +88,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 20),
+              // Name Field
               TextFormField(
                 controller: _nameController,
                 validator: (value) {
@@ -97,15 +106,19 @@ class _RegistrationFormState extends State<RegistrationForm> {
                 ),
               ),
               const SizedBox(height: 15),
+              // Email Field
               TextFormField(
                 controller: _emailController,
                 validator: (value) {
                   final trimmedValue = value?.trim();
                   if (trimmedValue == null || trimmedValue.isEmpty) {
                     return 'Please enter your email';
-                  } else if (!RegExp(r'^[\w-\.]+@([\w-]+\.)+[a-zA-Z]{2,}$')
+                  }
+                  // Updated regex for more flexible email validation
+                  else if (!RegExp(
+                          r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')
                       .hasMatch(trimmedValue)) {
-                    return 'Enter a valid email address';
+                    return 'Please enter a valid email address';
                   }
                   return null;
                 },
@@ -117,7 +130,9 @@ class _RegistrationFormState extends State<RegistrationForm> {
                   ),
                 ),
               ),
+
               const SizedBox(height: 15),
+              // Password Field
               TextFormField(
                 controller: _passwordController,
                 obscureText: true,
@@ -139,8 +154,11 @@ class _RegistrationFormState extends State<RegistrationForm> {
                 ),
               ),
               const SizedBox(height: 20),
+              // Register Button
               ElevatedButton(
-                onPressed: _registerUser,
+                onPressed: () async {
+                  await _registerUser();
+                },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.deepPurpleAccent,
                   padding:

@@ -1,13 +1,15 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:midterm_project/home_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'home_page.dart';
 import 'models/word.dart';
 import 'play_page.dart';
+import 'translator_page.dart';
 
 class CategoryPage extends StatefulWidget {
+  const CategoryPage({Key? key}) : super(key: key);
   @override
   _CategoryPageState createState() => _CategoryPageState();
 }
@@ -37,7 +39,7 @@ class _CategoryPageState extends State<CategoryPage> {
   Future<void> clearSavedWords() async {
     final prefs = await SharedPreferences.getInstance();
     prefs.remove('saved_words');
-    print('Cleared saved words from SharedPreferences');
+    ('Cleared saved words from SharedPreferences');
   }
 
   Future<void> addWord(Word word) async {
@@ -47,7 +49,7 @@ class _CategoryPageState extends State<CategoryPage> {
 
     await prefs.setStringList('saved_words',
         savedWords.map((word) => jsonEncode(word.toMap())).toList());
-    print('Added word: $word');
+    ('Added word: $word');
 
     setState(() {
       savedWordsFuture = loadSavedWords();
@@ -75,21 +77,43 @@ class _CategoryPageState extends State<CategoryPage> {
       savedWords.map((word) => jsonEncode(word.toMap())).toList(),
     );
 
-    print('Removed word: $wordToRemove');
+    ('Removed word: $wordToRemove');
+  }
+
+  int _currentIndex = 1;
+
+  void onTabTapped(int index) {
+    if (index == 0) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => HomePage()),
+      );
+    } else if (index == 2) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => const PlayPage()),
+      );
+    } else if (index == 3) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => translatorPage()), // Navigate to the new page
+      );
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Learned Words'),
-        backgroundColor: Color(0xFFA8D1E7),
+        title: const Text('Learned Words'),
+        backgroundColor: const Color(0xFFA8D1E7),
       ),
       body: FutureBuilder<List<Word>>(
         future: savedWordsFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(child: CircularProgressIndicator());
+            return const Center(child: CircularProgressIndicator());
           }
 
           if (snapshot.hasError) {
@@ -99,7 +123,7 @@ class _CategoryPageState extends State<CategoryPage> {
           final savedWords = snapshot.data ?? [];
 
           if (savedWords.isEmpty) {
-            return Center(child: Text('No words saved yet!'));
+            return const Center(child: Text('No words saved yet!'));
           }
 
           return ListView.builder(
@@ -107,24 +131,24 @@ class _CategoryPageState extends State<CategoryPage> {
             itemBuilder: (context, index) {
               final word = savedWords[index];
               return Card(
-                margin: EdgeInsets.symmetric(vertical: 8, horizontal: 10),
+                margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 10),
                 elevation: 4,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: ListTile(
-                  contentPadding: EdgeInsets.all(16),
+                  contentPadding: const EdgeInsets.all(16),
                   title: Text(word.word),
                   subtitle: Text(word.definition),
                   leading: CircleAvatar(
-                    backgroundColor: Color(0xFFA8D1E7),
+                    backgroundColor: const Color(0xFFA8D1E7),
                     child: Text(
                       word.word[0].toUpperCase(),
-                      style: TextStyle(color: Colors.white, fontSize: 18),
+                      style: const TextStyle(color: Colors.white, fontSize: 18),
                     ),
                   ),
                   trailing: IconButton(
-                    icon: Icon(Icons.delete, color: Colors.red),
+                    icon: const Icon(Icons.delete, color: Colors.red),
                     onPressed: () {
                       removeWord(word.word);
                     },
@@ -136,34 +160,27 @@ class _CategoryPageState extends State<CategoryPage> {
         },
       ),
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 1,
-        onTap: (index) {
-          if (index == 0) {
-            Navigator.pushReplacement(
-              context,
-              MaterialPageRoute(
-                builder: (context) => HomePage(),
-              ),
-            );
-          } else if (index == 2) {
-            Navigator.pushReplacement(
-              context,
-              MaterialPageRoute(builder: (context) => PlayPage()),
-            );
-          }
-        },
-        items: [
+        backgroundColor: Colors.blueGrey, // Change background color
+        currentIndex: _currentIndex,
+        selectedItemColor: Colors.black, // Change selected icon color
+        unselectedItemColor: Colors.black54, // Change unselected icon color
+        onTap: onTabTapped,
+        items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: Colors.black),
+            icon: Icon(Icons.home),
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.book, color: Colors.black, size: 30),
+            icon: Icon(Icons.book),
             label: 'Words',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.play_arrow, color: Colors.black),
+            icon: Icon(Icons.play_arrow),
             label: 'Play',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.new_releases),
+            label: 'New Page',
           ),
         ],
       ),
